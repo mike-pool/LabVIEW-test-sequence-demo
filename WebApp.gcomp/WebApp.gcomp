@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1DB6605730B71F625F3C1F59DCBCE7374CC990FEEB4E5C18E86367F9CF34E71B508FF0E8A2050C9E7AC1E47AF4815B3705FDFFFD9A9C04FB0028FE21CCA9B54E" Timestamp="1DAC10B872E906B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="8d75a86f31d74d82a58fe5b8b7993f9f" RootNamespaceId="81dc5a4cf96245388cdd68d0b3e14509" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="cb7b7bd68a2746e3b0dbb55e6dcc07f6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="31d024ff54f04aba9212ac7d0f9bce81" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="9bc42318eae14de582c4dac23af36cff" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="b72bb465e2f24ac880705d4e103ccc86" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="90d92da8c4344afa989681d42d8ec837" Name="Configuration1">
+			<CompilerSymbolTable Id="938d1ada2a29480cae8b0db11835a92c" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="68fabc99a89d48c092ef900cbc2da91d" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="b48cb9bd40e141c1a70ddfc5849a19d1" Id="eb8f8ec6e7154a5a82486e7eee9530b1" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="e2f45deb8f54410d826600ab85b589c4" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="ecffdf539c9946f3b820c5cd727eb306" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="bf7ce9109d834938b6cc687e8e9237d1" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="81dc5a4cf96245388cdd68d0b3e14509" Name="WebApp">
+				<SourceFileReference Id="b48cb9bd40e141c1a70ddfc5849a19d1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="77eeaa3c780d4b32beff454a9c72a129" Name="controls" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6c9b9954be6b4d1bac3e3ccc826943e4" Name="support">
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="a65b13a67c8145eb8ce4ab39d9ea09aa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Check Loop Error.gvi" StoragePath="support\Check Loop Error.gvi" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="824b4c503a7443168134186d39edac9a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Event Handling Loop.gvi" StoragePath="support\Error Handler - Event Handling Loop.gvi" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="e285ce846dd443d8ad9e5577c681d103" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Message Handling Loop.gvi" StoragePath="support\Error Handler - Message Handling Loop.gvi" />
+					<SourceFileReference Id="8b826b12f8904559a5d0cbeb079dc026" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Simple Display Error.gvi" StoragePath="support\Simple Display Error.gvi" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="533e777baeb84b5191382107216f034b" Name="Message Queue">
+						<SourceFileReference Bindings="EnvoyManager" Id="91f2314063df423fa36cf388504e67b3" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="All Message Queues.gtype" StoragePath="support\Message Queue\All Message Queues.gtype\All Message Queues.gtype" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="8e0a262236704f299901e6b7fb8d25e6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create All Message Queues.gvi" StoragePath="support\Message Queue\Create All Message Queues.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="eb4b4a8436d0408fa81340d1b78fadc1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue Message.gvi" StoragePath="support\Message Queue\Dequeue Message.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="847ecd7969374a13ae19d5599e047b3f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message (Array).gvi" StoragePath="support\Message Queue\Enqueue Message (Array).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="eb7bbdb743a64c8fb2265278e09d128f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue Message (Single).gvi" StoragePath="support\Message Queue\Enqueue Message (Single).gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="34f243a58e464beb8aa50a1ab025d72b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Cluster.gtype" StoragePath="support\Message Queue\Message Cluster.gtype\Message Cluster.gtype" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="2b72a8abb9414b15a72774ba00b12b2e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Obtain Message Queue.gvi" StoragePath="support\Message Queue\Obtain Message Queue.gvi" />
+						<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6126623b59a40838ddfc54e34ac352d" Name="My Additions">
+							<NameScopingEnvoy AutomaticallyResolveUp="True" Id="5b2c449170ff49099626bd8884c053be" Name="Message TypeDefs">
+								<SourceFileReference Bindings="EnvoyManager" Id="39b79ad8579c40998de89694cf098a28" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Manager Messages.gtype" StoragePath="support\Message Queue\My Additions\Message TypeDefs\Manager Messages.gtype\Manager Messages.gtype" />
+							</NameScopingEnvoy>
+							<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6e29b9c9cbe64057b6d30c72fe5320f3" Name="Module Queues" />
+						</NameScopingEnvoy>
+						<SourceFileReference Bindings="EnvoyManager" Id="950b4e9593c4493fa602f6d4e2241852" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Queue Names.gtype" StoragePath="support\Message Queue\Message Queue Names.gtype\Message Queue Names.gtype" />
+					</NameScopingEnvoy>
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="320dd99a77e24742b65ffe7817cb8eed" Name="typedefs">
+					<SourceFileReference Bindings="EnvoyManager" Id="90d11b80bf764830a81b2dbd4709ed0b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Manager Data.gtype" StoragePath="typedefs\Manager Data.gtype\Manager Data.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="aa7b11f0b77d4edabe803f6c132b8857" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Manager State.gtype" StoragePath="typedefs\Manager State.gtype\Manager State.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="65b291016aaa47b191bb51788e8a9ac4" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Manager Sub-State.gtype" StoragePath="typedefs\Manager Sub-State.gtype\Manager Sub-State.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="cbb851a794ac4554991b6b9ab0e1653a" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Step Data.gtype" StoragePath="typedefs\Step Data.gtype\Step Data.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="52623b0177414c64974f92037e70fcda" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Sequence.gtype" StoragePath="typedefs\Sequence.gtype\Sequence.gtype" />
+				</NameScopingEnvoy>
+				<SourceFileReference Id="3104af84f34f4e9ca5812aa066a4cc8d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="test.gviweb" />
+				<SourceFileReference Id="2c05ce051a5940ba8c68e68c8f77baca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Reached Status.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Reached Status.gviweb" />
+				<SourceFileReference Id="b22cd3c475554e45a85fef2d4266db1e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Append to String Control.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Append to String Control.gviweb" />
+				<SourceFileReference Id="dd0b2cb2c55d419d89a998c294cf7fc1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Apped Log Text.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Apped Log Text.gviweb" />
+				<SourceFileReference Id="eeb18f8ea60b41a7b239593e0c7ee9a2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Next Sequence.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Handle Next Sequence.gviweb" />
+				<SourceFileReference Id="b7e1ff529d9246578ec4f5272bf6848e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Next Step.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Handle Next Step.gviweb" />
+				<SourceFileReference Id="b25ad3cf74244d7ba01706ef44ae47fa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send Sequence Complete UI Updates.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Send Sequence Complete UI Updates.gviweb" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="d0ddc10c873247caa431ee0ee747078d" Name="WebApp.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="90d92da8c4344afa989681d42d8ec837" Id="49bb9370d5334e9aae82283504d781c4" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
