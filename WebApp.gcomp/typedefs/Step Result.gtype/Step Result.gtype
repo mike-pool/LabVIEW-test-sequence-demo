@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A9F90BD63A2CF043E5922E445479C97EFAE04B792F1CB87CD7480EF258EA2DE79F47ABE92A0A38B64C2B18CA611BEEC5EA60E8A27442024AD50C7EFE22CB7F68" Timestamp="1DAC21323333FBD" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@7003dfe1d9f74481896c95e4dc06e18a" Id="f2a3e527e44441a0bb9b40bfd16599c2" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="534cccc6cef247ca93cf71836a77f07e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="85987c83afd145ebad69a90c01dc3611" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="2a7097bca34b43ad6c8b7f4b155ac3" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@7003dfe1d9f74481896c95e4dc06e18a" Id="d293f58946714142ab66cd624f55f8f3" Name="Step Result">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="a0039a7bae3345b0b118bee7aae4fee1" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="e9c26609c0a6487785453868c9e5c25d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="3e759c9259da40fe864de3a2d8668796" Name="Step Result.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="4af221bccd8e4bf597596449d345942a" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="5a5d9cbc2bc541cdadbb0f30a2b3e199" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="9c700f178b67472395ae50a8b2374cf7" IsTypeAheadEnabled="[bool]True" Label="[UIModel]7b8da22502945c98f010f65418a5d3c" Left="[float]305" TabIndex="[int]0" Top="[float]263" Value="{DataItemBinding Id=d293f58946714142ab66cd624f55f8f3}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Pass" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Fail" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Canceled" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="7b8da22502945c98f010f65418a5d3c" LabelOwner="[UIModel]9c700f178b67472395ae50a8b2374cf7" Left="[float]305" Text="[string]Step Result" Top="[float]243" Width="[float]59" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="7003dfe1d9f74481896c95e4dc06e18a">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Pass" />
+					<EnumerationMember Value="1" Name="Fail" />
+					<EnumerationMember Value="2" Name="Canceled" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

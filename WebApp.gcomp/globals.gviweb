@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D478BD731BEF7243DA7B57BA902926F489AB0EFD4A3FBDB799ABC9D1C38F39658FD45A5522C2E03E5CA7D430675C305EE5128ED06986CB744B3C329ECECA7D19" Timestamp="1DAC221F6F9AE7E" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="fc1a34a5cb704f4792014f404f05ba79" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="37e4325485f94b8692015c41434d3509" ListViewIconCrop="0 0 20 10" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Id="a727d88c3ab441a0ab9e2652fa13a993" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]20">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="b6ba7dc13f3b4bc8ae23e18ddcd563a2" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]20">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="b940cdbd2e6d470a86b7d70d77ae898a" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="1e90a2d5652e4c7c84e7c4145ee54db4" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="10" Id="47f80d207995493084ce1b52896f5457" ListViewHeight="55" ListViewWidth="150" Width="20" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="20 5" ListViewHotspot="150 35" Parameter="764a90f5bbc14b2e9de55a2f4d96b39c" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="1492e8c926ec40ac92f10970a3f70d4e" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="7e0bf94eb9f4487da2f3399301d06be2" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="ba42bb1f52674727b237547a04571967">
+			<Literal Bounds="530 145 40 15" DataType="Double" Id="f6cfda6b23794dca8eca4e9269216d68" Label="37729806ee274c38b4319e9b9c7abcff" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x4014000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+			</Literal>
+			<NodeLabel AttachedTo="f6cfda6b23794dca8eca4e9269216d68" Bounds="530 127 30 15" Id="37729806ee274c38b4319e9b9c7abcff" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>input 1</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="880 135 40 15" DataItem="764a90f5bbc14b2e9de55a2f4d96b39c" Id="83939ed0d0014656bf15a859f35f78bc" Label="7681bc22c88e4160ac561c88af4f7078" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@5e2ee69bb7b847ad81fe49b529101158" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="83939ed0d0014656bf15a859f35f78bc" Bounds="880 118 41 14" Id="7681bc22c88e4160ac561c88af4f7078" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Globals</p.Text>
+			</NodeLabel>
+			<PropertyNode Bounds="590 135 259 65" HasErrorTerminals="False" Id="775b253a4ffe4e56ad3fdff24e2cfdb2" InstanceDataType="@5e2ee69bb7b847ad81fe49b529101158" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 15" Id="c0t0v" Path="Simulated Amplifier Factor" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 30" Id="c1t0v" Path="Pass Tolerance (%)" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="UInt32" Hotspot="0 45" Id="c2t0v" Path="Hardware Init Simulation Time (ms)" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="129975d3a7946c3ada32a635beb5ebf" Joints="N(7964a10c01774d379fe05173f373fcce:Out)|(418,140) N(775b253a4ffe4e56ad3fdff24e2cfdb2:instance in)|(590,140)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="56c6ebca61cb4d6bad2e67378a27c59a" Joints="N(f6cfda6b23794dca8eca4e9269216d68:Out)|(570,150) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c0t0v)|(590,150)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="9d9902369d07459e97cc8b30d8171492" Joints="N(775b253a4ffe4e56ad3fdff24e2cfdb2:instance out)|(849,140) N(83939ed0d0014656bf15a859f35f78bc:Value)|(883,140)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="530 160 40 15" DataType="Double" Id="fc1b6b94258b4f08addbe0aa401def87" Label="b563e3664c8144789a598ce236f232b4" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x4024000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+			</Literal>
+			<NodeLabel AttachedTo="fc1b6b94258b4f08addbe0aa401def87" Bounds="530 142 30 15" Id="b563e3664c8144789a598ce236f232b4" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Pass Tolerance (%)</p.Text>
+			</NodeLabel>
+			<Wire Id="5a6a3492c05c46f3af553fac7514af05" Joints="N(fc1b6b94258b4f08addbe0aa401def87:Out)|(570,165) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c1t0v)|(590,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="525 175 45 15" DataType="UInt32" Id="fadbb9b1c7c74d99abebb8ffde95cb6d" Label="87ee4bb2473c4f77b9303f6fa08d8a7c" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>2000</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+			</Literal>
+			<NodeLabel AttachedTo="fadbb9b1c7c74d99abebb8ffde95cb6d" Bounds="525 157 30 15" Id="87ee4bb2473c4f77b9303f6fa08d8a7c" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Hardware Init Simulation Time</p.Text>
+			</NodeLabel>
+			<Wire Id="3762d74e29b8469587759a4542ae37b4" Joints="N(fadbb9b1c7c74d99abebb8ffde95cb6d:Out)|(570,180) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c2t0v)|(590,180)" xmlns="http://www.ni.com/PlatformFramework" />
+			<ClusterLiteral Bounds="197 135 221 118" DataType="@5e2ee69bb7b847ad81fe49b529101158" Id="7964a10c01774d379fe05173f373fcce" Label="16174b39dd6b4809aa792b7cdb37db1f" p4:ControlDefinitionChecksum="vA8HWZIhY+/yk/27zz7FAl3KhJnljyCmRzLfw98Ds4s=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x0_0x0_0_</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype" />
+					<p4:TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<ClusterBehavior AutoArrange="ArrangeVertically" />
+				<Literal Bounds="2 19 40 15" DataType="Double" Id="25d2e72e35ca4b34b2d00c7a52cb00bc" Label="64b058893d85499d96e80eb55e13495e">
+					<p.Data>0x0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+				</Literal>
+				<NodeLabel AttachedTo="25d2e72e35ca4b34b2d00c7a52cb00bc" Bounds="2 2 147 14" Id="64b058893d85499d96e80eb55e13495e" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Simulated Amplifier Factor</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 55 40 15" DataType="Double" Id="b983b6cd23b245f99383009f20e140e8" Label="64e70ddbb0994fd3a5e8bc02abc9dc30">
+					<p.Data>0x0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+				</Literal>
+				<NodeLabel AttachedTo="b983b6cd23b245f99383009f20e140e8" Bounds="2 38 107 14" Id="64e70ddbb0994fd3a5e8bc02abc9dc30" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Pass Tolerance (%)</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 91 40 15" DataType="UInt32" Id="a10f739e6e7e45b4b65271560a3585b0" Label="96f4c889e7b84fc189a7556930765f97">
+					<p.Data>0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+				</Literal>
+				<NodeLabel AttachedTo="a10f739e6e7e45b4b65271560a3585b0" Bounds="2 74 200 14" Id="96f4c889e7b84fc189a7556930765f97" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Hardware Init Simulation Time (ms)</p.Text>
+				</NodeLabel>
+			</ClusterLiteral>
+			<NodeLabel AttachedTo="7964a10c01774d379fe05173f373fcce" Bounds="197 118 41 14" Id="16174b39dd6b4809aa792b7cdb37db1f" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Globals</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="33d7bc579371405087aee3f98932452c" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@5e2ee69bb7b847ad81fe49b529101158" Id="764a90f5bbc14b2e9de55a2f4d96b39c" Name="Globals" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0_0x0_0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="5e2ee69bb7b847ad81fe49b529101158">
+			<Attributed AttributedType="@9a03a8ec2fe744c2be2f4ae833b5b2cd">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9a03a8ec2fe744c2be2f4ae833b5b2cd">
+			<Typedef TypedefName="Globals.gtype" UnderlyingType="@3fc3963bacad441a9e7e3226bce6a18f" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3fc3963bacad441a9e7e3226bce6a18f">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Simulated Amplifier Factor" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Pass Tolerance (%)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Hardware Init Simulation Time (ms)" DataType="UInt32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

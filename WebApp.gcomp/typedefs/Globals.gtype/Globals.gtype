@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="00299DBD9987A531F2365A45A4DFA28C53563C4276490C467119FDCBCA062499C5CD4DEECD6931DCC5689AD7C23E55D00F1A84A12D6D66DA17F63B654416574B" Timestamp="1DAC220DBDF55A9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@3fc3963bacad441a9e7e3226bce6a18f" Id="c484c2558f2047e0813226b06107a875" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="85d1478a9b4d44c8b7d035131c85d044" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="75ab4bd3acf64cb0b94f5de936d3a408" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="c2fb22b6346748d6a574c3a142d1798a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@3fc3963bacad441a9e7e3226bce6a18f" Id="63b424606c9e4df1a79017fbcc666807" Name="Globals">
+			<p.DefaultValue>0x0_0x0_0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="d60a09945f164e1398b834f8bf730a50" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="81b4541b31204a25b91bb852836e5047" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="bd90f7acb61a4d48b1d5164c2dd7cf75" Name="Globals.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="303e942f36bf486fb85dcc1bdb858803" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="2b225ff7423b4b7b8b739d4a65b2395d" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@3fc3963bacad441a9e7e3226bce6a18f" Height="[float]164" Id="dcfca4cc3a6d41a885015068b11e32a0" Label="[UIModel]a07803191a91450f9c5630ccb4fd1a37" Left="[float]296" TabIndex="[int]0" Top="[float]178" Value="{DataItemBinding Id=63b424606c9e4df1a79017fbcc666807}" Width="[float]202" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="3dcacadd8398420e92ffc2f4fbaddc94" Label="[UIModel]8dc283208594f21b6f956132e72da52" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Simulated\ Amplifier\ Factor}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="8dc283208594f21b6f956132e72da52" LabelOwner="[UIModel]3dcacadd8398420e92ffc2f4fbaddc94" Left="[float]4" Text="[string]Simulated Amplifier Factor" Top="[float]4" Width="[float]140" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="9bee76703e164f708ed4f78f3c5173ac" Label="[UIModel]acd743961f5a4231813831f4d83ac9c2" Left="[float]4" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Pass\ Tolerance\ (%)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="acd743961f5a4231813831f4d83ac9c2" LabelOwner="[UIModel]9bee76703e164f708ed4f78f3c5173ac" Left="[float]4" Text="[string]Pass Tolerance (%)" Top="[float]56" Width="[float]97" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="b1cb22683cb34be4b7b2c93db47167db" Interval="[uint]1" Label="[UIModel]a60a5fb4939d43969c3b821609ca6ace" Left="[float]4" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=Hardware\ Init\ Simulation\ Time\ (ms)}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="a60a5fb4939d43969c3b821609ca6ace" LabelOwner="[UIModel]b1cb22683cb34be4b7b2c93db47167db" Left="[float]4" Text="[string]Hardware Init Simulation Time (ms)" Top="[float]108" Width="[float]186" />
+					</Cluster>
+					<Label Height="[float]16" Id="a07803191a91450f9c5630ccb4fd1a37" LabelOwner="[UIModel]dcfca4cc3a6d41a885015068b11e32a0" Left="[float]296" Text="[string]Globals" Top="[float]158" Width="[float]40" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="3fc3963bacad441a9e7e3226bce6a18f">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Simulated Amplifier Factor" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Pass Tolerance (%)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Hardware Init Simulation Time (ms)" DataType="UInt32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

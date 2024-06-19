@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="861FCC00F69FD56F30A21ED591AAF98F380519FB38696A7B6B041B2BD029FDC70DDD081E93312069B3FED69421810604E2BF02799E522E8D37D93ECF8C66B937" Timestamp="1DAC10A90A71BA7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DD0A02615B5FA0AF01FB93D3A83AF77A30FC6536041F12FF648BF81656CBA16C5844CF38AA6ED1E80176A3337618E243DE8094B1DB6AC3D4CE6748D06ED8C4BB" Timestamp="1DAC10C3B12F205" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -39,7 +39,7 @@
 		<FrontPanelUnplacedItems Id="cf66eb929a084454b0ce7740509543b8" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="4e67cf08ac6f4186a967a242bb9fce18">
 			<Wire Id="34bad271137f4eb2a84a3e8f14a2aa24" Joints="N(331e642198f04cf3b737d9c202772d2d:Value)|(705,265) h(180) B(1) h(200) v(125) N(329929316044662a740ca87db4b2616:L0)|(1095,390) B(1) v(75) N(9562f7aa19b4f35b0d8c1b72528692a:array)|(895,340)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="1095 385 40 40" Id="329929316044662a740ca87db4b2616" ResolveFailedHint="&quot;C:\\Users\\mikep\\Proton Drive\\mike.pool\\My files\\Projects\\LabVIEW\\Test Sequence Demo\\WebApp.gcomp\\Apped Log Text.gviweb&quot;" Signature="@cbd51c28527a4c8ebbb2663c247321b7" Target="WebApp::Apped Log Text.gviweb" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="1095 385 40 40" Id="329929316044662a740ca87db4b2616" ResolveFailedHint="&quot;C:\\Users\\mikep\\Proton Drive\\mike.pool\\My files\\Projects\\LabVIEW\\Test Sequence Demo\\WebApp.gcomp\\UI messages\\Append Log Text.gviweb&quot;" Signature="@e905087a211b4d6c93e662513449baaf" Target="WebApp::UI messages::Append Log Text.gviweb" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Input" />
@@ -185,8 +185,8 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="cbd51c28527a4c8ebbb2663c247321b7">
-			<Attributed AttributedType="@b99d268c241545b288e349d2c0baf46b">
+		<p.TypeReference TypeId="e905087a211b4d6c93e662513449baaf">
+			<Attributed AttributedType="@3494068242ed49f6a8586a0f2e4cf666">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
@@ -228,8 +228,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b99d268c241545b288e349d2c0baf46b">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Apped Log Text.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="3494068242ed49f6a8586a0f2e4cf666">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Append Log Text.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@039a59646df94e1b86d876ca10e0d91b">
 						<AttributeValues>
@@ -388,7 +388,7 @@
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="WebApp::Apped Log Text.gviweb">
+		<p.IconModel Target="WebApp::UI messages::Append Log Text.gviweb">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
@@ -396,7 +396,7 @@
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Apped Log Text" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Append Log Text" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
 									<FontSetting FontFamily="Segoe UI" FontSize="6.75" />
 								</FileNameText>
 							</IconTemplate>
