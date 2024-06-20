@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D478BD731BEF7243DA7B57BA902926F489AB0EFD4A3FBDB799ABC9D1C38F39658FD45A5522C2E03E5CA7D430675C305EE5128ED06986CB744B3C329ECECA7D19" Timestamp="1DAC221F6F9AE7E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="88736F30025A5F661CEF82C948FE9B3AF6500CB1ECD9B84D1497BE60C677A6573A19BC236CD8A661AD6DC7CB6736BF89D433A74BBC288E55E56308865E96DA51" Timestamp="1DAC2B25A969CFF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -32,22 +32,23 @@
 				<p.Text>input 1</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="880 135 40 15" DataItem="764a90f5bbc14b2e9de55a2f4d96b39c" Id="83939ed0d0014656bf15a859f35f78bc" Label="7681bc22c88e4160ac561c88af4f7078" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@5e2ee69bb7b847ad81fe49b529101158" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@ac6b8b6531384fec97a5ad2f42d193d5" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="83939ed0d0014656bf15a859f35f78bc" Bounds="880 118 41 14" Id="7681bc22c88e4160ac561c88af4f7078" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Globals</p.Text>
 			</NodeLabel>
-			<PropertyNode Bounds="590 135 259 65" HasErrorTerminals="False" Id="775b253a4ffe4e56ad3fdff24e2cfdb2" InstanceDataType="@5e2ee69bb7b847ad81fe49b529101158" xmlns="http://www.ni.com/MocCommon">
+			<PropertyNode Bounds="590 135 234 80" HasErrorTerminals="False" Id="775b253a4ffe4e56ad3fdff24e2cfdb2" InstanceDataType="@ac6b8b6531384fec97a5ad2f42d193d5" xmlns="http://www.ni.com/MocCommon">
 				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 					<TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype" />
 				</p.TypeDefinitionTargets>
 				<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 15" Id="c0t0v" Path="Simulated Amplifier Factor" PathElementMemberKinds="Field" Usage="Required" />
 				<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 30" Id="c1t0v" Path="Pass Tolerance (%)" PathElementMemberKinds="Field" Usage="Required" />
-				<PropertyItemTerminal Action="Write" DataType="UInt32" Hotspot="0 45" Id="c2t0v" Path="Hardware Init Simulation Time (ms)" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="UInt32" Hotspot="0 45" Id="c2t0v" Path="Hardware Initialize Duration (s)" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="UInt32" Hotspot="0 60" Id="c3t0v" Path="Hardware Finalize Duration (s)" PathElementMemberKinds="Field" Usage="Required" />
 			</PropertyNode>
 			<Wire Id="129975d3a7946c3ada32a635beb5ebf" Joints="N(7964a10c01774d379fe05173f373fcce:Out)|(418,140) N(775b253a4ffe4e56ad3fdff24e2cfdb2:instance in)|(590,140)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="56c6ebca61cb4d6bad2e67378a27c59a" Joints="N(f6cfda6b23794dca8eca4e9269216d68:Out)|(570,150) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c0t0v)|(590,150)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="9d9902369d07459e97cc8b30d8171492" Joints="N(775b253a4ffe4e56ad3fdff24e2cfdb2:instance out)|(849,140) N(83939ed0d0014656bf15a859f35f78bc:Value)|(883,140)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="9d9902369d07459e97cc8b30d8171492" Joints="N(775b253a4ffe4e56ad3fdff24e2cfdb2:instance out)|(824,140) N(83939ed0d0014656bf15a859f35f78bc:Value)|(883,140)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Literal Bounds="530 160 40 15" DataType="Double" Id="fc1b6b94258b4f08addbe0aa401def87" Label="b563e3664c8144789a598ce236f232b4" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>0x4024000000000000</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
@@ -56,72 +57,80 @@
 				<p.Text>Pass Tolerance (%)</p.Text>
 			</NodeLabel>
 			<Wire Id="5a6a3492c05c46f3af553fac7514af05" Joints="N(fc1b6b94258b4f08addbe0aa401def87:Out)|(570,165) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c1t0v)|(590,165)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="525 175 45 15" DataType="UInt32" Id="fadbb9b1c7c74d99abebb8ffde95cb6d" Label="87ee4bb2473c4f77b9303f6fa08d8a7c" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>2000</p.Data>
+			<Literal Bounds="530 190 40 15" DataType="UInt32" Id="fadbb9b1c7c74d99abebb8ffde95cb6d" Label="87ee4bb2473c4f77b9303f6fa08d8a7c" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>2</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 			</Literal>
-			<NodeLabel AttachedTo="fadbb9b1c7c74d99abebb8ffde95cb6d" Bounds="525 157 30 15" Id="87ee4bb2473c4f77b9303f6fa08d8a7c" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="fadbb9b1c7c74d99abebb8ffde95cb6d" Bounds="530 172 30 15" Id="87ee4bb2473c4f77b9303f6fa08d8a7c" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Hardware Init Simulation Time</p.Text>
 			</NodeLabel>
-			<Wire Id="3762d74e29b8469587759a4542ae37b4" Joints="N(fadbb9b1c7c74d99abebb8ffde95cb6d:Out)|(570,180) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c2t0v)|(590,180)" xmlns="http://www.ni.com/PlatformFramework" />
-			<ClusterLiteral Bounds="197 135 221 118" DataType="@5e2ee69bb7b847ad81fe49b529101158" Id="7964a10c01774d379fe05173f373fcce" Label="16174b39dd6b4809aa792b7cdb37db1f" p4:ControlDefinitionChecksum="vA8HWZIhY+/yk/27zz7FAl3KhJnljyCmRzLfw98Ds4s=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>0x0_0x0_0_</p.Data>
+			<ClusterLiteral Bounds="222 135 196 154" DataType="@ac6b8b6531384fec97a5ad2f42d193d5" Id="7964a10c01774d379fe05173f373fcce" Label="16174b39dd6b4809aa792b7cdb37db1f" p4:ControlDefinitionChecksum="AtQ1Ozu54XtNws6cOXAKi3JAzRgBv3hGIKtuJu0+Jeo=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x0_0x0_0_0_</p.Data>
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype" />
 					<p4:TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
 				<ClusterBehavior AutoArrange="ArrangeVertically" />
-				<Literal Bounds="2 19 40 15" DataType="Double" Id="25d2e72e35ca4b34b2d00c7a52cb00bc" Label="64b058893d85499d96e80eb55e13495e">
+				<Literal Bounds="2 19 40 15" DataType="Double" Id="11a631a8725f4f2a8f4f2e1a9065d36d" Label="28e59dca1e8f4aedb82e37139ffc4b51">
 					<p.Data>0x0</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 				</Literal>
-				<NodeLabel AttachedTo="25d2e72e35ca4b34b2d00c7a52cb00bc" Bounds="2 2 147 14" Id="64b058893d85499d96e80eb55e13495e" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="11a631a8725f4f2a8f4f2e1a9065d36d" Bounds="2 2 147 14" Id="28e59dca1e8f4aedb82e37139ffc4b51" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Simulated Amplifier Factor</p.Text>
 				</NodeLabel>
-				<Literal Bounds="2 55 40 15" DataType="Double" Id="b983b6cd23b245f99383009f20e140e8" Label="64e70ddbb0994fd3a5e8bc02abc9dc30">
+				<Literal Bounds="2 55 40 15" DataType="Double" Id="ea62d74dbd1f4b1b99dc837c2389c41b" Label="daacd508675c42ee8c52a0581162bb3a">
 					<p.Data>0x0</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 				</Literal>
-				<NodeLabel AttachedTo="b983b6cd23b245f99383009f20e140e8" Bounds="2 38 107 14" Id="64e70ddbb0994fd3a5e8bc02abc9dc30" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="ea62d74dbd1f4b1b99dc837c2389c41b" Bounds="2 38 107 14" Id="daacd508675c42ee8c52a0581162bb3a" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Pass Tolerance (%)</p.Text>
 				</NodeLabel>
-				<Literal Bounds="2 91 40 15" DataType="UInt32" Id="a10f739e6e7e45b4b65271560a3585b0" Label="96f4c889e7b84fc189a7556930765f97">
+				<Literal Bounds="2 91 40 15" DataType="UInt32" Id="31c4b72230174a0399b482a26fb8d3d4" Label="915be554423e44298620b48c9a91452c">
 					<p.Data>0</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 				</Literal>
-				<NodeLabel AttachedTo="a10f739e6e7e45b4b65271560a3585b0" Bounds="2 74 200 14" Id="96f4c889e7b84fc189a7556930765f97" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>Hardware Init Simulation Time (ms)</p.Text>
+				<NodeLabel AttachedTo="31c4b72230174a0399b482a26fb8d3d4" Bounds="2 74 175 14" Id="915be554423e44298620b48c9a91452c" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Hardware Initialize Duration (s)</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 127 40 15" DataType="UInt32" Id="2b4949a6e1d844a38de3dd531ca4b28c" Label="b0403e9a300845478da7484067539754">
+					<p.Data>0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+				</Literal>
+				<NodeLabel AttachedTo="2b4949a6e1d844a38de3dd531ca4b28c" Bounds="2 110 170 14" Id="b0403e9a300845478da7484067539754" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Hardware Finalize Duration (s)</p.Text>
 				</NodeLabel>
 			</ClusterLiteral>
-			<NodeLabel AttachedTo="7964a10c01774d379fe05173f373fcce" Bounds="197 118 41 14" Id="16174b39dd6b4809aa792b7cdb37db1f" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="7964a10c01774d379fe05173f373fcce" Bounds="222 118 41 14" Id="16174b39dd6b4809aa792b7cdb37db1f" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Globals</p.Text>
 			</NodeLabel>
+			<Wire Id="e2c993e19cc6418b95a74af468cc6f1e" Joints="N(fadbb9b1c7c74d99abebb8ffde95cb6d:Out)|(570,195) h(10) B(1) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c3t0v)|(590,195) B(1) v(-15) N(775b253a4ffe4e56ad3fdff24e2cfdb2:c2t0v)|(590,180)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="33d7bc579371405087aee3f98932452c" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
-		<DataItem CallDirection="Output" CallIndex="0" DataType="@5e2ee69bb7b847ad81fe49b529101158" Id="764a90f5bbc14b2e9de55a2f4d96b39c" Name="Globals" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>0x0_0x0_0_</p.DefaultValue>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@ac6b8b6531384fec97a5ad2f42d193d5" Id="764a90f5bbc14b2e9de55a2f4d96b39c" Name="Globals" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0_0x0_0_0_</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="WebApp::typedefs::Globals.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="5e2ee69bb7b847ad81fe49b529101158">
-			<Attributed AttributedType="@9a03a8ec2fe744c2be2f4ae833b5b2cd">
+		<p.TypeReference TypeId="ac6b8b6531384fec97a5ad2f42d193d5">
+			<Attributed AttributedType="@b905d5fdef7248ac8bffcbb2700ce863">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9a03a8ec2fe744c2be2f4ae833b5b2cd">
-			<Typedef TypedefName="Globals.gtype" UnderlyingType="@3fc3963bacad441a9e7e3226bce6a18f" />
+		<p.TypeReference TypeId="b905d5fdef7248ac8bffcbb2700ce863">
+			<Typedef TypedefName="Globals.gtype" UnderlyingType="@10b0a17db439432eb618faebffb0a024" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="3fc3963bacad441a9e7e3226bce6a18f">
+		<p.TypeReference TypeId="10b0a17db439432eb618faebffb0a024">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Simulated Amplifier Factor" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Pass Tolerance (%)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Hardware Init Simulation Time (ms)" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Hardware Initialize Duration (s)" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Hardware Finalize Duration (s)" DataType="UInt32" />
 				</Members>
 			</Composite>
 		</p.TypeReference>

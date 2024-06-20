@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="70BD700C32D843C226EAD5E79F3676FC6E1D8F46F65426255E90BC5A185D1E6298C3D2E065DB0A267D6FFAA00F7180F80CA0CF651ADB31FB890B3B5F5788D7BF" Timestamp="1DAC22AF424D211" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0CFAEAA0D948B3B666140AA18863694B4625EA793ED767A1815E561236DE2241348020E89005CFAEB043CF9883B5FCD19EF0A1BBB5CE2AED56C27B2E3ADF7078" Timestamp="1DAC2B33427953C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -91,6 +91,9 @@
 				<SourceFileReference Id="18ee1e4fd7574798adfae4015957150e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test Hardware Values.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Test Hardware Values.gviweb" />
 				<SourceFileReference Id="5dd845fcb2114ac9aa0527a9fb293b5b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Receive IO Data.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Receive IO Data.gviweb" />
 				<SourceFileReference Id="8c8dac83689e4c2d82aa157a828dfe94" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Prep Step Staus for Display.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Prep Step Staus for Display.gviweb" />
+				<SourceFileReference Id="a83f6019fcd04923b3117f4c1d601f04" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Future Functionality - Front Panel.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Future Functionality - Front Panel.gviweb" />
+				<SourceFileReference Id="e7dcffcb1f094ed3b234aa4e21a3a203" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Result Color.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Result Color.gviweb" />
+				<SourceFileReference Id="e88d3afae14343c5889efb77d8388b97" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate Test Duration.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Calculate Test Duration.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="d0ddc10c873247caa431ee0ee747078d" Name="WebApp.gcomp" NameTracksFileName="True">
