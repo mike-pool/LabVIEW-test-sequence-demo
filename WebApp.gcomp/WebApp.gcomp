@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="87E194763E440E2E41BB28F878CF283BB259578679D089002F2B3ACFEC392F6BAEFF13C5D35338FB69E0B4060F5D2C46C1B95F2BB0F48962B31B679129436E12" Timestamp="1DAC2EB0E9C9676" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F5495B4970ACDF699BD8007B53D6FF1D50718B27B92781186D6F5CADA428114DD45FE1A73DB1403C5A78C301D7F6BB9A0BD4ADEBB1424802163DFC3265C8CA05" Timestamp="1DAC2F337007B25" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -62,6 +62,7 @@
 					<SourceFileReference Bindings="EnvoyManager" Id="618371ca51624ca4abd02c971fd23b18" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Globals.gtype" StoragePath="typedefs\Globals.gtype\Globals.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="1b2c6f3d244b4d419e2b24f2bcbce155" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Step Status.gtype" StoragePath="typedefs\Step Status.gtype\Step Status.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="4514c04af42e416db477e2032922237e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Step Result.gtype" StoragePath="typedefs\Step Result.gtype\Step Result.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="3e86ba0eceaf4318b37f4d1a766fcccc" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Error Data.gtype" StoragePath="typedefs\Error Data.gtype\Error Data.gtype" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="78795fec7e13475caa1126961a8d7f56" Name="UI messages">
 					<SourceFileReference Id="2acefa1663e64eed9c18a74053cabf8a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Append Log Text.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="UI messages\Append Log Text.gviweb" />
@@ -96,6 +97,7 @@
 				<SourceFileReference Id="e88d3afae14343c5889efb77d8388b97" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate Test Duration.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Calculate Test Duration.gviweb" />
 				<SourceFileReference Id="41cb2450e9154957aec052e60edceb1f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Validate Test Sequence.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Validate Test Sequence.gviweb" />
 				<SourceFileReference Id="875450052b4847099be3c2eb886a6a1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Data Remaining in Queue.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Handle Data Remaining in Queue.gviweb" />
+				<SourceFileReference Id="42bad890589146ee95f232decfc23639" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Error.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Handle Error.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="d0ddc10c873247caa431ee0ee747078d" Name="WebApp.gcomp" NameTracksFileName="True">

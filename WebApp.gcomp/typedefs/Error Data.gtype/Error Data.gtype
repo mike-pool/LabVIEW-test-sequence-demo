@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2D736F5A3898672908F4D34773CAC5DD91563D2CAE606E143BA4D8972115A34DBF6E1EF123B35844476A5D97376F346774C2361D9A4C8657D81B5DEA84BF1FEE" Timestamp="1DAC2F08A967761" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@8f6af1468a324893b6b0b52af1dfcfdd" Id="1438f68907bb4ad7a053c5004732fa4e" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype" />
+			<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="32d999d0b0a54910bdf4551dd97d103e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="47d07b133c3746218b166d1b185168ae" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="f8765e32dace414581c6571ce0566589" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@8f6af1468a324893b6b0b52af1dfcfdd" Id="559a38ded96b48989d3db5aa70b42f84" Name="Error Data">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0</Field1>
+					<Field2>
+						<Cluster>
+							<Field1>False</Field1>
+							<Field2>0</Field2>
+							<Field3>""</Field3>
+						</Cluster>
+					</Field2>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype" />
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="46d017db78a34fdfa796112963aee743" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="9baff854e694c7eb0281c31427dc881" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="43d703b82d0c411998a0e0b25fefaded" Name="Error Data.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="32c1edafcda246199ac3b19492e724b4" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="4c032ac13df34dce97ce56d59e997f33" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@8f6af1468a324893b6b0b52af1dfcfdd" Height="[float]212" Id="1a08fbd8495a4243af3db9fbe91dc0d0" Label="[UIModel]604af77bc2bd41beb1087149d56c7afe" Left="[float]383" TabIndex="[int]0" Top="[float]225" Value="{DataItemBinding Id=559a38ded96b48989d3db5aa70b42f84}" Width="[float]272" xmlns="http://www.ni.com/PanelCommon">
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Message Queue Names" Height="[float]24" Id="36d627fe243246e6a68490140a444ce1" IsTypeAheadEnabled="[bool]True" Label="[UIModel]de30cf3bb61a40e79993da648225c31e" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Error\ Origin}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p7:ControlDefinitionChecksum="OUVnhiSS0YnALcLzBbIMJFVJgMfHnchpti1CUJYIqFA=_v1" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelectorInfo DisplayValue="[string]Manager" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]UI" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]IO" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="de30cf3bb61a40e79993da648225c31e" LabelOwner="[UIModel]36d627fe243246e6a68490140a444ce1" Left="[float]4" Text="[string]Error Origin" Top="[float]4" Width="[float]62" />
+						<Cluster BaseName="[string]Error In" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="ad24a4e24ee7434493283e532345efb9" Label="[UIModel]f1f8c2b97c44401ba743aa0b4fb1cc4f" Left="[float]84" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Error\ In}" Width="[float]176" p7:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="2e153544c2e94bf7b7ca09da211d3b20" Label="[UIModel]e175154422e343f085e6a6272ca971a7" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p9:DisplayAsErrorStatus="True" xmlns:p9="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="e175154422e343f085e6a6272ca971a7" LabelOwner="[UIModel]2e153544c2e94bf7b7ca09da211d3b20" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+							<NumericText Height="[float]24" Id="c0adffa7b68c492ba2b1a02c397824c9" Label="[UIModel]89158e33ada64b7b81015cc2e3d66c9c" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="89158e33ada64b7b81015cc2e3d66c9c" LabelOwner="[UIModel]c0adffa7b68c492ba2b1a02c397824c9" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+							<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="8d6fcaadbe5d463fb434b472f5522675" Label="[UIModel]9489d5b7e4954e009d73261fadb6ed54" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="9489d5b7e4954e009d73261fadb6ed54" LabelOwner="[UIModel]8d6fcaadbe5d463fb434b472f5522675" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+						</Cluster>
+						<Label Height="[float]16" Id="f1f8c2b97c44401ba743aa0b4fb1cc4f" LabelOwner="[UIModel]ad24a4e24ee7434493283e532345efb9" Left="[float]84" Text="[string]Error In" Top="[float]4" Width="[float]39" />
+					</Cluster>
+					<Label Height="[float]16" Id="604af77bc2bd41beb1087149d56c7afe" LabelOwner="[UIModel]1a08fbd8495a4243af3db9fbe91dc0d0" Left="[float]383" Text="[string]Error Data" Top="[float]205" Width="[float]54" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="8f6af1468a324893b6b0b52af1dfcfdd">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Error Origin" DataType="@e8d6ffa779c04682a0a568d3ea6f8311" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Error In" DataType="Error" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e8d6ffa779c04682a0a568d3ea6f8311">
+			<Attributed AttributedType="@89a63e9cf6724c739d4eb66d6b360643">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::support::Message Queue" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="89a63e9cf6724c739d4eb66d6b360643">
+			<Typedef TypedefName="Message Queue Names.gtype" UnderlyingType="@111beafcac534b1b9fd9626fd0f359d5" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="111beafcac534b1b9fd9626fd0f359d5">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Manager" />
+					<EnumerationMember Value="1" Name="UI" />
+					<EnumerationMember Value="2" Name="IO" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
