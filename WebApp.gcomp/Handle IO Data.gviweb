@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="EF4303D297DE5925504DCA4C059DEE6C4E7BC52C41020A4E621E63C2B5458F3A708853DD6AE5B53A479D89890B9DCF518EF0CD061C6CE0A82EEE8632721E58F5" Timestamp="1DAC2AC4D41619F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0F02C1D5CADED8071D3BF07C5600B6A1B608D90014593296C15DCE618572EFED6D804CA9F1BAF2F79439C69F2D8C307394A0BFB961571C2112282BCAC0C407DE" Timestamp="1DAC2E8950B7A89" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -145,7 +145,7 @@
 			<Wire Id="ee13832c99154cabbd49ecaf1ceb9521" Joints="N(444975486b6441c6915f2f0f9d238032:outArray)|(1945,315) N(6d2f1bf25bab4c6bab1b52780f49a014:61a8e569f8184c138a345af9e7ec0d4b)|(1961,315)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="9c8cfcf589584437a2fae1dd4ead447b" Joints="N(58a77ef8a24b4fa0a17c4188d3ce4d45:bf20f3c339d44c9faf3251c97ba96ba8)|(1199,370) h(21) B(1) v(-35) N(444975486b6441c6915f2f0f9d238032:c0t0v)|(1905,335) B(1) v(15) B(4) N(153b0fae517446428f7ff60cbc53356c:568838faaf8c4e0686e74d5104d2bb31)|(1281,385) B(4) v(100) N(932c7d383a9947b69b79e2d102a59a74:c0t0v)|(1225,485)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="3275e6643b574f808cea65b12ff69719" Joints="N(c932d9f13246466bba158174f16487ba:instance out)|(1893,415) h(5) v(-70) N(444975486b6441c6915f2f0f9d238032:c0new)|(1905,345)" xmlns="http://www.ni.com/PlatformFramework" />
-			<CaseStructure Bounds="1285 360 485 300" DataType="Int32" Default="8d6e5acf37194d41815e421ab23aebd8" Id="568838faaf8c4e0686e74d5104d2bb31" Selected="8d6e5acf37194d41815e421ab23aebd8" UserSelectorBounds="192 0 100 17">
+			<CaseStructure Bounds="1285 360 485 300" DataType="Int32" Default="8d6e5acf37194d41815e421ab23aebd8" Id="568838faaf8c4e0686e74d5104d2bb31" Selected="a9f6156fcd4c49ea9100d59f43583b7a" UserSelectorBounds="192 0 100 17">
 				<CaseStructure.Case Bounds="5 5 475 290" Id="a9f6156fcd4c49ea9100d59f43583b7a" Pattern="-2, -1">
 					<Literal Bounds="405 55 40 15" DataType="Double" Id="5f4990faf474488a46eb07a0e3ccb91" Label="3f25f58f7a8c4ea493d37b367bfcba97" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>0x3FF0000000000000</p.Data>

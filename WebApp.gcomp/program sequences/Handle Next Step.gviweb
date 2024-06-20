@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8BE64C8AE383C2FBCA1701B30CE38522AA3EB708EE4ABC03DC0DA7383B4EC88440B23760989EF323DDFE607E97181FD26012ACBC341C62501EC87DFF18E2CDEF" Timestamp="1DAC2A253A34A67" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="831A2662B0789414A6B7F839DF1B5627AD240F77C279B21F39C6DC305A9E7455C93DA2E13159203FDFEC9F4F3DDC2F925D6A3DAAE3DBB99C5A70DA20BCFAE4A1" Timestamp="1DAC2BB37825FF4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -100,7 +100,7 @@
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="15fd1969d0824218b22160899c72a00f" Joints="N(90b3812918c24c429215971f47d0605b:R3)|(1230,450) h(15) v(-35) N(4d311ee1e40c44718736d771b8f103c5:L3)|(1255,415)" xmlns="http://www.ni.com/PlatformFramework" />
-			<PropertyNode Bounds="885 360 138 50" HasErrorTerminals="False" Id="f8f1bc7077254bd69b12de41a7776a2d" InstanceDataType="@67c65911c6af44d38f49c22a2ce86d1d" xmlns="http://www.ni.com/MocCommon">
+			<PropertyNode Bounds="885 360 138 50" HasErrorTerminals="False" Id="f8f1bc7077254bd69b12de41a7776a2d" InstanceDataType="@27ce3213b0614aedbaac87e506069036" xmlns="http://www.ni.com/MocCommon">
 				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 					<TypeDefinitionTarget TargetName="WebApp::typedefs::Manager Data.gtype" />
 					<TypeDefinitionTarget TargetName="WebApp::typedefs::Step Data.gtype" />
@@ -112,7 +112,7 @@
 			<Wire Id="50c3c9c3e56a488eb9129bfa0965c4b4" Joints="N(f8f1bc7077254bd69b12de41a7776a2d:instance out)|(1023,365) h(5) v(-130) N(be204a18f174858acb09bdc90c32d3e:Value)|(1273,235)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="9d6d16d669264f45aefb597073f718b7" Joints="N(40803a9181644b2393ed3db570d23dd9:Value)|(795,350) h(70) v(15) N(f8f1bc7077254bd69b12de41a7776a2d:instance in)|(885,365)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="1270 230 40 15" DataItem="2f7fbfa1716b470fb95aadd2cab14efc" Id="be204a18f174858acb09bdc90c32d3e" Label="d687ab1e51094007ab933e0de0efda90" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@67c65911c6af44d38f49c22a2ce86d1d" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@27ce3213b0614aedbaac87e506069036" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="1315 410 40 15" DataItem="6ed7e8d0786e4ac7baa0394850792cf5" Id="70b294ca0a974d9b819b1af9329b79f6" Label="600bee2d39a64c019fe735f070ce9921" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -121,7 +121,7 @@
 				<Terminal DataType="@54a36d656f7740b0802923e1fd037c46" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="755 345 40 15" DataItem="8429cbe80ad44e3e8a054b349fc864e6" Id="40803a9181644b2393ed3db570d23dd9" Label="32f4805494dd463399e71d1e4ee9581c" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@67c65911c6af44d38f49c22a2ce86d1d" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@27ce3213b0614aedbaac87e506069036" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="755 315 40 15" DataItem="7b49e0fe7ea4951a2b22381f1357f8e" Id="1a3c374da2764582ad331409fde9e78a" Label="692cf458f527474ea301e01402932586" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="@839cec5492ed4d3bac78688c57e2e936" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -183,7 +183,7 @@
 			<Label Height="[float]16" Id="2a5c3a234aba4ff180cc60192d57452e" LabelOwner="[UIModel]68cd45c4185c408fb505ccdc4214fc55" Left="[float]340" Text="[string]Input" Top="[float]96" Width="[float]28" xmlns="http://www.ni.com/PanelCommon" />
 			<Label Height="[float]16" Id="552c829f997e4b1594d9d57536880894" LabelOwner="[UIModel]db10427520c845f5ab96fb43b3c575e7" Left="[float]564" Text="[string]Output" Top="[float]96" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
-		<DataItem CallDirection="Output" CallIndex="0" DataType="@67c65911c6af44d38f49c22a2ce86d1d" Id="2f7fbfa1716b470fb95aadd2cab14efc" Name="manager data out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@27ce3213b0614aedbaac87e506069036" Id="2f7fbfa1716b470fb95aadd2cab14efc" Name="manager data out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>0</Field1>
@@ -219,7 +219,7 @@
 				<TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@67c65911c6af44d38f49c22a2ce86d1d" Id="8429cbe80ad44e3e8a054b349fc864e6" Name="manager data in" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@27ce3213b0614aedbaac87e506069036" Id="8429cbe80ad44e3e8a054b349fc864e6" Name="manager data in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>0</Field1>
@@ -309,8 +309,8 @@
 		<p.TypeReference TypeId="839cec5492ed4d3bac78688c57e2e936">
 			<VariableArray DereferenceType="@97082c0bd3d94ff498e2e22576208274" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="67c65911c6af44d38f49c22a2ce86d1d">
-			<Attributed AttributedType="@fc1c04f534c64e6884ce3beb719f9019">
+		<p.TypeReference TypeId="27ce3213b0614aedbaac87e506069036">
+			<Attributed AttributedType="@83f2dac3319b45059343275e4827167a">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
 				</AttributeValues>
@@ -406,8 +406,8 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="fc1c04f534c64e6884ce3beb719f9019">
-			<Typedef TypedefName="Manager Data.gtype" UnderlyingType="@ba462b06b6b7441c8878d2b933959820" />
+		<p.TypeReference TypeId="83f2dac3319b45059343275e4827167a">
+			<Typedef TypedefName="Manager Data.gtype" UnderlyingType="@fe24bac2a43544d7b951ec2643a58665" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="b782a34a365d489eb5b0af7837500d6c">
 			<Typedef TypedefName="Step Data.gtype" UnderlyingType="@603e2ce2c49a4c96acf45ec6d7987de6" />
@@ -460,13 +460,13 @@
 		<p.TypeReference TypeId="039a59646df94e1b86d876ca10e0d91b">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@839cec5492ed4d3bac78688c57e2e936" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="ba462b06b6b7441c8878d2b933959820">
+		<p.TypeReference TypeId="fe24bac2a43544d7b951ec2643a58665">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Current State" DataType="@18b5a92c51dc4cdabb6d3889ba2d8ae8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current State" DataType="@72e330c52af94607afa641215d9a082d" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Current Step" DataType="@c49702c8ae3641c1b3a655babc129457" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Remaining Steps" DataType="@b60af3211397493cac8db834dfd686d3" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Remaining Sequences" DataType="@81ed64e3eb494af79f53a74ea7343080" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Remaining Sequences" DataType="@793c6b58bb424b0c976233df46755aea" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
@@ -481,15 +481,15 @@
 		<p.TypeReference TypeId="268b06fd53794a2090bef870f8750593">
 			<Typedef TypedefName="Message Cluster.gtype" UnderlyingType="@edf3d2186c934836ba541026fcca7142" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="18b5a92c51dc4cdabb6d3889ba2d8ae8">
-			<Attributed AttributedType="@e633f85e1d044c42bfda62b45f79233e">
+		<p.TypeReference TypeId="72e330c52af94607afa641215d9a082d">
+			<Attributed AttributedType="@15479e575b0e4f43aea5c9d78adc6e5d">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="81ed64e3eb494af79f53a74ea7343080">
-			<VariableArray DereferenceType="@260f646b30cc4f11909bc73cd9e17732" />
+		<p.TypeReference TypeId="793c6b58bb424b0c976233df46755aea">
+			<VariableArray DereferenceType="@816b85598efb4c679e17babf26c00496" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="edf3d2186c934836ba541026fcca7142">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -499,34 +499,35 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e633f85e1d044c42bfda62b45f79233e">
-			<Typedef TypedefName="Manager State.gtype" UnderlyingType="@7b25f32e056a4fc880300e5a1565e38d" />
+		<p.TypeReference TypeId="15479e575b0e4f43aea5c9d78adc6e5d">
+			<Typedef TypedefName="Manager State.gtype" UnderlyingType="@0efd8d08a4b24efaa19b393a1030fafe" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="260f646b30cc4f11909bc73cd9e17732">
-			<Attributed AttributedType="@f8940de7ddc04b7380b4b108e37f937f">
+		<p.TypeReference TypeId="816b85598efb4c679e17babf26c00496">
+			<Attributed AttributedType="@06fac0c0481049dc856150ffe57a8499">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="7b25f32e056a4fc880300e5a1565e38d">
+		<p.TypeReference TypeId="0efd8d08a4b24efaa19b393a1030fafe">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Idle" />
 					<EnumerationMember Value="1" Name="Initialize" />
 					<EnumerationMember Value="2" Name="Execute" />
 					<EnumerationMember Value="3" Name="Finalize" />
+					<EnumerationMember Value="4" Name="Error" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
 		</p.TypeReference>
-		<p.TypeReference TypeId="f8940de7ddc04b7380b4b108e37f937f">
-			<Typedef TypedefName="Sequence.gtype" UnderlyingType="@5edbd3a34a084817832dcc6f225c3764" />
+		<p.TypeReference TypeId="06fac0c0481049dc856150ffe57a8499">
+			<Typedef TypedefName="Sequence.gtype" UnderlyingType="@4bc26541392b4393ac81a2b357b99c70" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="5edbd3a34a084817832dcc6f225c3764">
+		<p.TypeReference TypeId="4bc26541392b4393ac81a2b357b99c70">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Manager State" DataType="@18b5a92c51dc4cdabb6d3889ba2d8ae8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Manager State" DataType="@72e330c52af94607afa641215d9a082d" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Steps" DataType="@b60af3211397493cac8db834dfd686d3" />
 				</Members>
 			</Composite>

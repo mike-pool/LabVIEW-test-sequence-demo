@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0815E95251A34572AF4F3ADEACC1A710470067AE5BAAAB842DBDFA7A48B6AD86B938664DE7304A62C60BC3F6598C46389996FB946993A8DFB8AC71552C027269" Timestamp="1DAC2B03B9B1E3E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="05E314A39DFB8A95E2CEF4EDBFAE380077FCFCA82CF67AACE35BAC17550EAF7BB2CFD5D233C9BD7F81BEF6DF29F7594818132E67BCD03E8506DF4B34E0E05B1C" Timestamp="1DAC2E691F73257" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -38,7 +38,7 @@
 		<DiagramUnplacedItems Id="2fe9afe4375641a38c985dbe36fe4886" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="c26ff4edb48b4bc3a28c1da452117316" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="3837755891f14bcf8f714a0050ff26b7">
-			<CaseStructure Bounds="1005 1020 95 95" DataType="@04d3dbf5029849cba86d8587876e92a8" Default="2f06c919ed914f45a4b1258682955465" Id="56c731ebb74c435e93edb22d1e506135" Selected="2f06c919ed914f45a4b1258682955465" UserSelectorBounds="0 0 95 17">
+			<CaseStructure Bounds="1005 1020 95 95" DataType="@04d3dbf5029849cba86d8587876e92a8" Default="2f06c919ed914f45a4b1258682955465" Id="56c731ebb74c435e93edb22d1e506135" Selected="93a4e190698e49898c0e0d2a85c486de" UserSelectorBounds="0 0 95 17">
 				<CaseStructure.Case Bounds="5 5 85 85" Id="2f06c919ed914f45a4b1258682955465" Pattern="&quot;Pass&quot;, Default">
 					<Literal Bounds="35 30 30 22" DataType="@bbb456d3e70c4e7590a19df3152e15f3" Id="960799abad754f7d9d9089cb39e1c519" p6:ControlDefinitionChecksum="h0NiJFHLwcy+97C6qIRDe2KbknSwqEAbxAIl3T/9ODw=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>4282038392</p.Data>
@@ -83,10 +83,10 @@
 			<DataAccessor Bounds="1132 1055 40 15" DataItem="b4a9d8c77f2544f297f62e27e75bcf91" Id="865711f5c227436f918a45bdc10db130" Label="77dc248f6a764ef2b16bed53ae4d3c14" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="@bbb456d3e70c4e7590a19df3152e15f3" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="20c14116c0e04c3da2af4153610de1bf" Bounds="898 1050 30 15" Id="d6b86b2b06fb4e6fb9a7bf46320dc5cb" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="20c14116c0e04c3da2af4153610de1bf" Bounds="898 1050 30 14" Id="d6b86b2b06fb4e6fb9a7bf46320dc5cb" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Input</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="865711f5c227436f918a45bdc10db130" Bounds="1177 1055 30 15" Id="77dc248f6a764ef2b16bed53ae4d3c14" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="865711f5c227436f918a45bdc10db130" Bounds="1177 1055 39 14" Id="77dc248f6a764ef2b16bed53ae4d3c14" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Output</p.Text>
 			</NodeLabel>
 		</BlockDiagram>

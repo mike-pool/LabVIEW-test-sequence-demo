@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0CFAEAA0D948B3B666140AA18863694B4625EA793ED767A1815E561236DE2241348020E89005CFAEB043CF9883B5FCD19EF0A1BBB5CE2AED56C27B2E3ADF7078" Timestamp="1DAC2B33427953C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="87E194763E440E2E41BB28F878CF283BB259578679D089002F2B3ACFEC392F6BAEFF13C5D35338FB69E0B4060F5D2C46C1B95F2BB0F48962B31B679129436E12" Timestamp="1DAC2EB0E9C9676" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -94,6 +94,8 @@
 				<SourceFileReference Id="a83f6019fcd04923b3117f4c1d601f04" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Future Functionality - Front Panel.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Future Functionality - Front Panel.gviweb" />
 				<SourceFileReference Id="e7dcffcb1f094ed3b234aa4e21a3a203" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Result Color.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Result Color.gviweb" />
 				<SourceFileReference Id="e88d3afae14343c5889efb77d8388b97" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate Test Duration.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Calculate Test Duration.gviweb" />
+				<SourceFileReference Id="41cb2450e9154957aec052e60edceb1f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Validate Test Sequence.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Validate Test Sequence.gviweb" />
+				<SourceFileReference Id="875450052b4847099be3c2eb886a6a1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Data Remaining in Queue.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Handle Data Remaining in Queue.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="d0ddc10c873247caa431ee0ee747078d" Name="WebApp.gcomp" NameTracksFileName="True">
