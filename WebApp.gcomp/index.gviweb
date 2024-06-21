@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="43E833FDD927E178B29BAD065F89A661C1930D712019FF9BD1B77090C1EE9B9D1BD854694954E8ED684F2118B388878113A8CE4086A3F73387802FB9493315B8" Timestamp="1DAC3BEB3DA841B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0E1AD43FF44BC7713DFF50F09C7AA529290B88EA95F8DE383E6F32424FDCF45D78D8A306B69783533C8871FE702FD9ED0BE5B770688E34C9285BDDC99A9FD3F2" Timestamp="1DAC3C3DF05C33C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -36,16 +36,12 @@
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="c76b048bae54327a78659c47ddc9ae7" xmlns="http://www.ni.com/MocCommon" />
-		<FrontPanelUnplacedItems Id="780cb90f7e143b4812f1c68a8fa5ab2" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
-			<Button BaseName="[string]Button" Content="[string]Exit" Height="[float]28" Id="a4d4c9c8a5bc4dc3b90dc8f848974cf9" IsTabStop="[bool]True" Label="[UIModel]6e220fe287ca4c62bf34b99ce0c9144a" Left="[float]708" TabIndex="[int]0" Top="[float]324" Value="{DataItemBinding Id=4c25cecba23c4d95b7181e7cb59c2ce3}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<Label Height="[float]16" Id="6e220fe287ca4c62bf34b99ce0c9144a" IsVisualChild="[bool]False" LabelOwner="[UIModel]a4d4c9c8a5bc4dc3b90dc8f848974cf9" Left="[float]708" Text="[string]Exit (development only)" Top="[float]304" Width="[float]125" xmlns="http://www.ni.com/PanelCommon" />
-			</Button>
-		</FrontPanelUnplacedItems>
+		<FrontPanelUnplacedItems Id="780cb90f7e143b4812f1c68a8fa5ab2" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="5170e6e895f24715b715c3ff5f628e84">
 			<WhileLoop Bounds="150 -195 710 235" DiagramId="73539f0d53b440c9918ef73d7dd0626e" Id="b5bc6736077949c0b13760d2053eabb2">
 				<LoopCondition Bounds="645 150 15 15" Id="1ad9f8127b2408da16534f3aba40528" />
 				<LoopIteration Bounds="5 205 15 15" Id="6bd70ca0666348749e1401915a4d70ed" />
-				<EventStructure Bounds="29 9 603 202" Id="b8b17197f1de45afa84b45ebfcba12e1" Selected="8347ddce63c044fe85a0100839006c53" UserSelectorBounds="20 0 563 17">
+				<EventStructure Bounds="29 9 603 202" Id="b8b17197f1de45afa84b45ebfcba12e1" Selected="f14f1f5b269f49da9cdb5230fab22bbc" UserSelectorBounds="20 0 563 17">
 					<EventStructure.LeftDynamicEventRegistration Bounds="-2 66 25 20" Docking="Left" DynamicEventsType="@3016aaec3cbd458cb76cdbd01fa60753" Id="a7fd466a143c4b558a551d279bb733be" Terminals="b8b17197f1de45afa84b45ebfcba12e1=59d5b95793b24d2ba4e316385e1f73b6, 8347ddce63c044fe85a0100839006c53, 13aafd24773349c4aa2c0c02437c2936, f14f1f5b269f49da9cdb5230fab22bbc, 2bebf625e95f420a94802171f7108b3c, 16531914b5b94cb687b75b291ba61ca3" />
 					<EventStructure.RightDynamicEventRegistration Bounds="580 66 25 20" Docking="Right" Id="8e81053153bf406e860376d292b05d9d" Terminals="b8b17197f1de45afa84b45ebfcba12e1=2fe2f29afb77493192c760bad1a68e81, 8347ddce63c044fe85a0100839006c53, 13aafd24773349c4aa2c0c02437c2936, f14f1f5b269f49da9cdb5230fab22bbc, 2bebf625e95f420a94802171f7108b3c, 16531914b5b94cb687b75b291ba61ca3" />
 					<EventStructure.EventCase Bounds="21 18 561 176" Id="8347ddce63c044fe85a0100839006c53">
@@ -3767,6 +3763,26 @@
 			<Comment Bounds="855 -600 285 320" Id="dbefb2cb8b6437bb13fd785631eb0f7" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 				<p.Text>"\r\nRun Test Sequence example\r\n\r\nState: Idle\r\n\r\nStart Pressed\r\n\r\nInitialize\r\n\t&gt;&gt; To UI ---Initialize\r\n\tWaiting on UI\r\n\t&gt;&gt; To IO ---Initialize\r\n\tWaiting on IO\r\nExecute\r\n\t&gt;&gt; To UI ---Execute\r\n\tWaiting on UI\r\n\t&gt;&gt; To IO ---Execute\r\n\tWaiting on IO\r\nFinalize\r\n\t&gt;&gt; To IO ---Finalize\r\n\tWaiting on IO\r\n\t&gt;&gt; To UI ---Finalize\r\n\tWaiting on UI\r\nIdle\r\n\r\n"</p.Text>
 			</Comment>
+			<ControlReference Bounds="-550 445 165 20" Id="b97c692c0c954ca8a4dc8f0df04ba756" SourceControl="a4d4c9c8a5bc4dc3b90dc8f848974cf9" />
+			<PropertyNode Bounds="-355 445 103 45" Id="943136c762da46429d69e183930d09f8" InstanceDataType=":DotNet:NationalInstruments.Controls.Runtime.BooleanControlBaseProxy, NationalInstruments.Controls.Runtime" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="Boolean" Hotspot="0 25" Id="c0t0v" Path="Visible" PathElementMemberKinds="Property" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="165b32045a0b401ca1d3f15e5bb17ca2" Joints="N(b97c692c0c954ca8a4dc8f0df04ba756:control reference)|(-385,450) N(943136c762da46429d69e183930d09f8:instance in)|(-355,450)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="d1435ec133c14094b90209ddec672a5b" Joints="N(943136c762da46429d69e183930d09f8:error out)|(-252,460) h(101) v(-55) N(ff7420d55d3c4421b4a7a2dcbb8093d9:error in)|(-145,405)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="-410 465 25 15" DataType="Boolean" Id="2c4076e0b1de455ca7e201d13b72fc10" Label="61a4c7f8339644b696f87c439de5d7d3" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>False</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<NodeLabel AttachedTo="2c4076e0b1de455ca7e201d13b72fc10" Bounds="-410 447 30 15" Id="61a4c7f8339644b696f87c439de5d7d3" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Visible</p.Text>
+			</NodeLabel>
+			<Wire Id="58ced144890846b384a88419dcd4e42e" Joints="N(2c4076e0b1de455ca7e201d13b72fc10:Out)|(-385,470) N(943136c762da46429d69e183930d09f8:c0t0v)|(-355,470)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="-490 395 100 28" Id="5a9cf6298b314bd79948579b996ad4c7" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"#development\r\n#build"</p.Text>
+			</Comment>
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="5063972e4f1143acbb81ef5cf6a7f3fa" Left="[float]0" MaxWidth="[float]16000" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="7b1ff47d243b4ab2a8519b3cdefaf4c3" IsReadOnly="[bool]True" Label="[UIModel]5141f9a27b324229997e91725bd45979" Left="[float]39" TabIndex="[int]0" Top="[float]368" Value="{DataItemBinding Id=648c68d5d5cf4211b07cd3a7bfd1a102}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -3812,7 +3828,7 @@
 					<Label Height="[float]16" Id="af4c130730f249d7b4a599ff34e97ebb" LabelOwner="[UIModel]8b67fe9a43974218a65a3d653f9505b1" Left="[float]84" Text="[string]Waveform Data" Top="[float]4" Width="[float]83" />
 					<Slider BaseName="[string]Slider" Height="[float]56" Id="e8efa3662a5a46b9a8aae44d73ccac01" Label="[UIModel]c99ad9b1a31c4f769ab963cf43ddc11c" LabelPresenter="[string]LV:G6" Left="[float]356" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]100" MinorTickVisibility="[SMVisibility]Collapsed" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Fault\ Probability}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 					<Label Height="[float]16" Id="c99ad9b1a31c4f769ab963cf43ddc11c" LabelOwner="[UIModel]e8efa3662a5a46b9a8aae44d73ccac01" Left="[float]356" Text="[string]Fault Probability" Top="[float]4" Width="[float]86" />
-					<Label Height="[float]16" Id="12ab44c5d79c4d7b92536297750230c5" IsVisualChild="[bool]False" LabelOwner="[UIModel]5ca3ae50b10f419ba7b72ad171b706b4" Left="[float]5" Text="[string]Test Step Data" Top="[float]185" Width="[float]76" />
+					<Label Height="[float]16" Id="12ab44c5d79c4d7b92536297750230c5" IsVisualChild="[bool]False" LabelOwner="[UIModel]5ca3ae50b10f419ba7b72ad171b706b4" Left="[float]5" Text="[string]Test Step Data" Top="[float]85" Width="[float]76" />
 				</Cluster>
 			</ArrayViewer>
 			<Label Height="[float]16" Id="ee4d625d889b430dad288cda1e68621a" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]fc3e71c896744191accffcf9ab9c9555" Left="[float]230" Text="[string]Test Sequence" Top="[float]16" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
@@ -3846,6 +3862,8 @@
 			<Button BaseName="[string]Button" Content="[string]Cancel" Glyph="[int]61453" Height="[float]28" Id="4d43c65122c743af9d080fcfa6fac0d3" Label="[UIModel]5e9a6298e25044c9b3e8cafc9a1c2c4c" Left="[float]734" TabIndex="[int]10" Top="[float]64" Value="{DataItemBinding Id=925836f12aec4b9a9940b4cc3c76f5dc}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="5e9a6298e25044c9b3e8cafc9a1c2c4c" LabelOwner="[UIModel]4d43c65122c743af9d080fcfa6fac0d3" Left="[float]734" Text="[string]Cancel" Top="[float]44" Visible="[bool]False" Width="[float]36" xmlns="http://www.ni.com/PanelCommon" />
 			<Text BaseName="[string]Text" Height="[float]424" Id="86f88f9e11fb4e4eaa1a2f9e5e2d41b0" Left="[float]790" SizeMode="[TextModelSizeMode]Fixed" Text="[string]About:&#xD;&#xA;&#xD;&#xA;This framework behind this sequencer operates by handling instructions (command lists) in the instruction case of the manager loop. The instruction will only begin if the manager is in a valid state to accept it. Instructions are initiated by sending an &quot;Instruction&quot; message via the manager's queue. The sequences in that instruction and their nested steps are then executed sequentially with the manager expecting a response to indicate each step's completion via the Report Step Complete VI. The manager will then continue on the to next step and next sequence as they're store in the sequences array via the logic in the &quot;Step Complete&quot; case. In each sequence element, a manager state name is defined. There's also a nested array containing the individual steps to be executed, each containing a message queue/ loop name and a message defining the action to be completed." TextWrapping="[TextWrapping]Wrap" Top="[float]313" Width="[float]216" xmlns="http://www.ni.com/PlatformFramework" />
+			<Button BaseName="[string]Button" Content="[string]Exit" Height="[float]28" Id="a4d4c9c8a5bc4dc3b90dc8f848974cf9" IsTabStop="[bool]True" Label="[UIModel]6e220fe287ca4c62bf34b99ce0c9144a" Left="[float]868" TabIndex="[int]11" Top="[float]311" Value="{DataItemBinding Id=4c25cecba23c4d95b7181e7cb59c2ce3}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="6e220fe287ca4c62bf34b99ce0c9144a" LabelOwner="[UIModel]a4d4c9c8a5bc4dc3b90dc8f848974cf9" Left="[float]868" Text="[string]Exit (development only)" Top="[float]291" Width="[float]125" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="4c25cecba23c4d95b7181e7cb59c2ce3" IsLatched="True" Name="Exit (development only)" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
