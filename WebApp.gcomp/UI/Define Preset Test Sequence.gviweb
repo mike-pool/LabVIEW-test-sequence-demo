@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1AC0E5911D6A205343AE4265F674439FA1A5BCF656BFC009F91BE84C139D8870982FAA79737F1B4AE8D2BE9D806CF6C9793B8703C9550157BA6D796E9F16E85B" Timestamp="1DAC3B8CFDAC4BA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="385327594068FB0267AA66C270A7A4EACE30E5133CD2C2B99F5D6379833078E7071A80F5272A6B5C41CE58297C16ED9B4BD18226BAF1D94246CCEABE353F4769" Timestamp="1DAC3BD1BFD3D75" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -37,18 +37,18 @@
 		<DiagramUnplacedItems Id="bc9dc1d0d4f64dd09f12e67d9f1bb68c" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="5f4325ae703845fa9f2c3c9ce1796630" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="e8c0a403ee9e4207b266a4dbacf4fd03">
-			<ArrayLiteral Bounds="-601 1295 186 690" DataType="@63bd50fdbba94e119d5836c54a35e134" Id="312bb572e14a99887c6ee171a62ed6" xmlns="http://www.ni.com/MocCommon">
+			<ArrayLiteral Bounds="-580 1295 165 690" DataType="@63bd50fdbba94e119d5836c54a35e134" Id="312bb572e14a99887c6ee171a62ed6" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>
 					<Array Lengths="3" IsBinary="True" Compression="GZip">
-						<BinaryElements>H4sIAAAAAAAEAOVWwW7TQBB14tixk7bE0A/wEURktaKlzSGiKFVQBJRIqcIhhLB2psh0bZddbyFcQPwkv4H4AZhxbSVCtMqhoRLY8np2d/xm5r1d21pJ07SfeNCdjrUyNq+OWBomMeO9WKZCRRCn0utzlp4kIuoKFsGHRJw23SEIiX7tlrdFZ9PtKJ4qAe0YVCoYb7p95fMweAqz4+QU4nasODco1Os/RRgkSgTwPJkC9/oELVOIA/AOWcqGjCsYgAgZDz+BuN/hCmdFMZKhdRLOISCLijCOME9p5Y5S13+UBjM0I2/uJ70nECNE4D3DYG+2R6MrXHq/+QxSEcZvm24kg0Tw0J/zsbMsH/7eHtsNdh9utx7swNZ+azy+Zrhvy9S8Ci2a7irX0HhMCts6NRVsKmT9j/pS3eYkxHSlMZGohjU5v0DFma9XEfJXqh2NLcs2MMdyflVIrX92UV6uBpY9XEVFo2wjIMkm3ko5yVViPOsR2/qXG18GdpU2qoXNerlqLiZXOV4FK9nLwaZwukOhM11qRNRLdg6ktVknl8fRGQ9TNQVzjbpdAe8VBpo5VvHQOn0SD5XIYN278p65QbAFjEsZmbdwyOkypMXti8RnfoioM4MSWFl5ZjcEPpV1/MihXr14Ch917fPyL8AX/jv0uGadrYz4RqEvGTed0uVb0sj2jZMrTVfDyVelZV78DDUO7NsLXU2rlahPwtp38qESGVSpvbkItVlAbcyftw4K6/ujWv0XqTNs43sJAAA=</BinaryElements>
-						<BinaryElements>H4sIAAAAAAAEAOVWzW7TQBB24tixk7bEkAfwEURktaKl5BAUlCooAkqkVOEQQlg7U2S6tmHXWwgXEC/Je/ACMOPaNEK0yqGhEtjyetYefzPzfftjraRp2g886E7HRhmbl4csDZOY8UEsU6EiiFPpDTlLjxMR9QWL4EMiTlruGIREv07b26az5fYUT5WATgwqFYy33KHyeRg8gcVRcgJxJ1acGxTq1Z8ijBIlAniWzIF7Q4KWKcQBeAcsZWPGFYxAhIyHn0Dc7XGFb0XxJEPrJZxDQBYVYRxintLKHaWufy+NFmhG3rmf9B5DjBCB9xSDvd6ZTC5xGfzmM0pFGL9puZEMEsFD/5yP3VX58Pf32V6wd3+nfW8Xth+0p9Mrhvu2Ss3r0KLlrnMMTaeksK1TU8GmQtb/qC/Vbc5CTFcaM4lqWLPTM1R88/UyQv5KtZOpZdkG5ljOrwqp9c8OyovVwLLH66hokk0EJNnEWyknuUqMZz1iW/9y7cPArtJEtbDZLFfN5eQqR+tgJVscbAqnOxQ606VGRL1gp0Bam3VyeRS942Gq5mBuULcv4L3CQAvHKj7apC3xQIkM1r0t75hbBFvAuJSReQMfOX2GtLhDkfjMDxF1YVACayvP7IfA57KOmxzqNYjn8FHXPq++AD7336LHFetsZcQ3Cn3JuO6ULp6SRjZvnFxpuhpOPiot8+xnqNm1by51H3ZrJeqTsPat/IepRAZVajeXoZoF1Fb51/eNbmFp3Vr9JyePurB7CQAA</BinaryElements>
-						<BinaryElements>H4sIAAAAAAAEAOVWzW7TQBC249ixk7bUkAfwEURktaKlzSFSUKqgCCiRUoVDCGHtTJHp2i673kK4gHhJ3oMXgBnXaSNEqxwaKoEtr2ft8Tcz37c/1nRN037iQXc61krYvD5kWZQmjPcSmQkVQ5JJv89ZdpyKuCtYDB9TcdLwhiAk+rWa/hadDa+jeKYEtBJQmWC84fVVwKPwGcyO0hNIWoni3KRQb/4UYZAqEcKLdArc7xO0zCAJwT9gGRsyrmAAImI8+gziYYcrfCvmT3K0Tso5hGRREeYh5intwlEaxg99MEMz9i/9pP8UEoQI/ecY7O32aHSNS+83n0EmouRdw4tlmAoeBZd87CzLR7C3x3bD3cfbzUc7sLXfHI9vGO77MjWvQouGt8oxNB6Two5BTRmbMln/o75UtzWJMF1pTiSqYU/OzlHxzbfrCPkr1Y7Gtu2YmGOpuMqk1j87KK9WA8serqKiUT4RkGQLb3pBcoUYz3vEtvH11oeBU6GJamOzXqpYi8mVj1bBSr44OBTOcCl0rkuViHrFzoC0tmrk8iQ+5VGmpmCtUbcr4IPCQDPXnn+0TlvigRI5rHdfPrA2CHYO41FG1h185HYZ0uL1RRqwIELUmUkJrKw8qxsBn8oabnKoVy+ZwidD+7L8AvgyeI8eN6yznRO/OdeXjNtO6eopaebzxi2UpmvTLUalbZ3/DNXbzt2Fbq9d1alPwjr3ih8mnQyq1KkvQtXnUBv6xfda+8LSqrVfF1ecCnsJAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAOVWwW7TQBC149ixm7Y00A/wEYRltaKl5BABShUUASVSqnAIJqydAZmubdj1FsIFxE/yG4gfgBnXUSJEqxxqKoEtr2d3x29m3tu1remapv3Eg+50rNeweXHE8jhLGe+nMhcqgTSX/oCz/HUmkp5gCXzIxInnjkBI9Ou0/R06PbereK4EdFJQuWDccwcq5HH0GGbH2QmknVRxblKol3+KMMyUiOBpNgXuDwha5pBG4B+ynI0YVzAEETMefwJxu8sVzor5SIHWzTiHiCwqwjzCPKVdOkrD+KEPZ2gm/sJP+o8gRYjIf4LBXu2Oxxe49H/zGeYiTt94biKjTPA4XPCxtyof4cEB24/27+627+zBzr12EFwy3LdVaq5CC8+tcg0FASnsGNTUsamT9T/qS3VbkxjTleZEohr25PQMFWe+XkTIX6l2HNi2Y2KOtfKqk1r/7KI8Xw0se1RFReNiIyDJFt70kuQGMV70iG3jy5UvA6dBG9XGZqPWsJaTqx9XwUrxcnAonNGi0IUua0TUc3YKpLXVJJeHyTse52oK1jp1ewLeKww0a9nzhzbok3ioRAHr3pS3rE2CncO4lJF1DYdaPYa0uAORhSyMEXVmUgKVlWf1YuBT2cSPHOrVT6fw0dA+r/4CfBa+RY9L1tkuiN+a60vGVad0/pY0i33TKpWma6tVrkrbOvsZsh8415e6mramU5+EdW6UQzoZVKmzvQy1PYfaXDz//f4SUvMX3wSpcnsJAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAOVW227TQBBN4tixk7bE0A/wI4jIakUv5CEQlCooAkqkVOEhmLB2BmS6tmHXWwgvIH6S30D8AMy4No0QrfLQUAlseT1rj8/MnLMXl8qlUukHHnSnY62CzfNDloZJzPgglqlQEcSpdIecpa8SEfUFi+B9Io5bzhiERL9O292is+X0FE+VgE4MKhWMt5yh8nkYPIL5UXIMcSdWnOsU6sWfIowSJQJ4ksyAu0OClinEAbgHLGVjxhWMQISMhx9B3O5xhW9F8SRD6yWcQ0AWFaEfYp7SzB2lpn0vj+ZoRu6Zn3QfQowQgfsYg73cnkwucBn85jNKRRi/bjmRDBLBQ/+Mj51l+fD399lusLu33b6zA1t32553yXBfl6l5FVq0nFWOIc8jhS2Nmio2VbL+R32pbmMaYrpSn0pUw5yenKLimy8XEfJXqp14pmnpmGMlv6qk1j87KM9XA8ser6KiSTYRkGQDb+Wc5BoxnvWIbe3zlQ8Dq0YT1cRmvVIzFpOrHq2ClWxxsCicZlPoTJc6EfWMnQBpbTTI5UH0loepmoGxRt2+gHcKA81ts/honbbEAyUyWOemvGVsEGwB41BGxjV8ZPcZ0uIMReIzP0TUuU4JrKw8ox8Cn8kGbnKo1yCewQet9Gn5BfCp/wY9LllnMyO+WehLxlWndP6U1LN5Y+dK09W081FpGqc/Q82udX2he69bL1OfhLVu5D9MZTKoUmtzEWqzgNqo/Pre7BbWt/v1xk+S+tOgewkAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAOVWzW7TQBC249ixk7Y0kAfwEYRltaKlzSFSUKqgCCiRUoVDCGHtDMjt2oZdbyFcQLwk78ELwIzrkAjRKoeGSmDL61l7/M3M9+2PNV3TtB940J2OjRI2L49ZFqUJ471EZkLFkGTS73OWvUlF3BUshg+pOPPcIQiJfq2mv0On53YUz5SAVgIqE4x7bl8FPAqfwOwkPYOklSjOTQr16k8RBqkSITxLp8D9PkHLDJIQ/COWsSHjCgYgIsajTyDud7jCt2L+JEfrpJxDSBYVYR5jntIuHKVhfNcHMzRjf+En/ceQIEToP8Vgr3dHoytcer/5DDIRJW89N5ZhKngULPjYW5WP4OCA7Yf7D3ebD/Zg57A5Hl8z3LdVal6HFp67zjE0HpPCjkFNGZsyWf+jvlS3NYkwXWlOJKphT84vUPHN16sI+SvVjsa27ZiYY6m4yqTWPzsoL1cDyx6uo6JRPhGQZAtvekFyhRjPe8S28eXGh4FToYlqY7NZqljLyZVP1sFKvjg4FM6oU+hclyoR9YKdA2lt1cjlUfyOR5magrVB3a6A9woDzer2/KNN2hKPlMhh3bvynrVFsHMYlzKybuGjepchLW5fpAELIkSdmZTA2sqzuhHwqazhJod69ZIpfDS0z6svgM+DU/S4Zp3tnPjtub5k3HRKl09JM5839UJpurbrxai0rYufoUbbub3U7bWrOvVJWOdO8cOkk0GVOo1lqMYcakv/9b3WXljV2k/X2gZ6ewkAAA==</BinaryElements>
 					</Array>
 				</p.Data>
-				<ArrayBehavior ElementType="@73c14b90459c44ae8e78d5e75c555c41" IndexEditorWidth="42">
+				<ArrayBehavior ElementType="@73c14b90459c44ae8e78d5e75c555c41" IndexEditorWidth="42" VisibleRows="3">
 					<p.DefaultElementValue>0x0_0_0x0_0x0_0x0_</p.DefaultElementValue>
 				</ArrayBehavior>
-				<ClusterLiteral Bounds="93 2 87 227" DataType="@73c14b90459c44ae8e78d5e75c555c41" Id="2bbefdf7c82f4a619a5285896baec4c0" Label="1ed5b4675bf4513bcec949391676beb" p5:ControlDefinitionChecksum="Vn10CdDpuPB6Zr+rgBYBJi9yzxV4dt6fZ6Yjku/Bcsc=_v1" xmlns:p5="http://www.ni.com/PanelCommon">
+				<ClusterLiteral Bounds="48 2 111 227" DataType="@73c14b90459c44ae8e78d5e75c555c41" Id="2bbefdf7c82f4a619a5285896baec4c0" Label="1ed5b4675bf4513bcec949391676beb" p5:ControlDefinitionChecksum="Vn10CdDpuPB6Zr+rgBYBJi9yzxV4dt6fZ6Yjku/Bcsc=_v1" xmlns:p5="http://www.ni.com/PanelCommon">
 					<p5:p.TypeDefinitionTargets>
 						<p5:TypeDefinitionTarget TargetName="WebApp::typedefs::Test Step Data.gtype" />
 						<p5:TypeDefinitionTarget TargetName="WebApp::typedefs::Test Step Data.gtype::ControlDefinition" />
@@ -57,16 +57,16 @@
 					<Literal Bounds="2 20 40 15" DataType="Double" Id="8b2a56be94254d74911c507220ca550a" Label="e3b48e17120a45cb94c897cc2df2e59b">
 						<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 					</Literal>
-					<NodeLabel AttachedTo="8b2a56be94254d74911c507220ca550a" Bounds="2 2 30 15" Id="e3b48e17120a45cb94c897cc2df2e59b" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="8b2a56be94254d74911c507220ca550a" Bounds="2 2 70 15" Id="e3b48e17120a45cb94c897cc2df2e59b" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Duration (s)</p.Text>
 					</NodeLabel>
 					<Literal Bounds="2 200 40 15" DataType="Double" Id="888bf3d05bd04d21bb051e09dd9d1e93" Label="814421ec0400448aaa6de9c92c714fd7">
 						<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 					</Literal>
-					<NodeLabel AttachedTo="888bf3d05bd04d21bb051e09dd9d1e93" Bounds="2 182 30 15" Id="814421ec0400448aaa6de9c92c714fd7" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="888bf3d05bd04d21bb051e09dd9d1e93" Bounds="2 182 90 15" Id="814421ec0400448aaa6de9c92c714fd7" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Fault Probability</p.Text>
 					</NodeLabel>
-					<ClusterLiteral Bounds="2 57 66 121" DataType="@4865e1e2d2b244feaa924cb420497436" Id="84f24f05c9c44724930f90230b35bb91" Label="9e9583e6862a456ab17a032fe13d390e" p5:ControlDefinitionChecksum="Vx/m6f7rlq0eOc6dxT3lEz8Pvq3xchM3kbQ0cvT8oO4=_v1">
+					<ClusterLiteral Bounds="2 57 81 121" DataType="@4865e1e2d2b244feaa924cb420497436" Id="84f24f05c9c44724930f90230b35bb91" Label="9e9583e6862a456ab17a032fe13d390e" p5:ControlDefinitionChecksum="Vx/m6f7rlq0eOc6dxT3lEz8Pvq3xchM3kbQ0cvT8oO4=_v1">
 						<p5:p.TypeDefinitionTargets>
 							<p5:TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveform Data.gtype" />
 							<p5:TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveform Data.gtype::ControlDefinition" />
@@ -79,27 +79,27 @@
 							</p5:p.TypeDefinitionTargets>
 							<EnumBehavior />
 						</Literal>
-						<NodeLabel AttachedTo="c5fc05e4767c423c9c52107e8b768e33" Bounds="2 2 30 15" Id="3a872166f1344c258b397d6f49d39eb7" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="c5fc05e4767c423c9c52107e8b768e33" Bounds="2 2 60 15" Id="3a872166f1344c258b397d6f49d39eb7" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Waveform</p.Text>
 						</NodeLabel>
 						<Literal Bounds="2 57 40 15" DataType="Double" Id="947674e767374ed7b765cf91eb8f9bd4" Label="1b92797474424e7e89d2a2ff4547f09a">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="947674e767374ed7b765cf91eb8f9bd4" Bounds="2 39 30 15" Id="1b92797474424e7e89d2a2ff4547f09a" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="947674e767374ed7b765cf91eb8f9bd4" Bounds="2 39 60 15" Id="1b92797474424e7e89d2a2ff4547f09a" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Amplitude</p.Text>
 						</NodeLabel>
 						<Literal Bounds="2 94 40 15" DataType="Double" Id="7a2f18fca4164354b3087683954fea88" Label="9f863703effa49989d6ed8d0427f149c">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="7a2f18fca4164354b3087683954fea88" Bounds="2 76 30 15" Id="9f863703effa49989d6ed8d0427f149c" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="7a2f18fca4164354b3087683954fea88" Bounds="2 76 60 15" Id="9f863703effa49989d6ed8d0427f149c" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Frequency</p.Text>
 						</NodeLabel>
 					</ClusterLiteral>
-					<NodeLabel AttachedTo="84f24f05c9c44724930f90230b35bb91" Bounds="2 39 30 15" Id="9e9583e6862a456ab17a032fe13d390e" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="84f24f05c9c44724930f90230b35bb91" Bounds="2 39 90 15" Id="9e9583e6862a456ab17a032fe13d390e" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Waveform Data</p.Text>
 					</NodeLabel>
 				</ClusterLiteral>
-				<NodeLabel AttachedTo="2bbefdf7c82f4a619a5285896baec4c0" Bounds="93 -16 30 15" Id="1ed5b4675bf4513bcec949391676beb" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="2bbefdf7c82f4a619a5285896baec4c0" Bounds="48 -16 30 15" Id="1ed5b4675bf4513bcec949391676beb" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Test Step Data</p.Text>
 				</NodeLabel>
 			</ArrayLiteral>

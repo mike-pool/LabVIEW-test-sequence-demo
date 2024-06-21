@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DACD13CE95E435ED82B1ABD4F4B9FC29330B156F46DABD1543EA13C9E75F16B81E91252E8D1D89F50F31A31FAC00532074AAD6590C422346667B88F6D15975C9" Timestamp="1DAC3B8CFDAC4BA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1387F831B233720ABA3F3E33A2F997A5A2DC1882F29CF8BC6BC65F14C9ECFCF0765F9931ED9E8A0885B7EC1494F078994763FEFDF284F8F5F079ABB0ECCCE679" Timestamp="1DAC3BC2231C61C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -41,22 +41,22 @@
 			<Wire Id="cd24fe9e3fa74094a0d1db5c348c61ba" Joints="N(841d25b80b1641bb9f0bf985ff736859:Value)|(456,1045) N(11cfc2bc58c4e8abbaf8dc8813c62df:o0)|(483,1045)" xmlns="http://www.ni.com/PlatformFramework" />
 			<ForLoop Bounds="488 878 871 426" DiagramId="b832843bb1204e9fa835326f72fa9662" Id="e2b8f46b94ac4b35a5f5b41b2aca0128">
 				<LoopIteration Bounds="5 395 15 15" Id="97f42517dc1b4d5f8e91ec668e22fc3e" />
-				<PropertyNode Bounds="15 160 181 35" HasErrorTerminals="False" Id="a8f9240afbe8434aac697173671464c4" InstanceDataType="@8542a00bc922459db9611fd4571c5ed3" xmlns="http://www.ni.com/MocCommon">
+				<PropertyNode Bounds="15 160 181 35" HasErrorTerminals="False" Id="a8f9240afbe8434aac697173671464c4" InstanceDataType="@73c14b90459c44ae8e78d5e75c555c41" xmlns="http://www.ni.com/MocCommon">
 					<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 						<TypeDefinitionTarget TargetName="WebApp::typedefs::Test Step Data.gtype" />
 						<TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveform Data.gtype" />
 						<TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveforms.gtype" />
 					</p.TypeDefinitionTargets>
-					<PropertyItemTerminal DataType="@6cacb09f14694191a5062a9e46712dce" Hotspot="181 15" Id="c0t0v" Path="Waveform Data:Waveform" PathElementMemberKinds="Field:Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="@2dddf14c9466464fa7d6320683a41b21" Hotspot="181 15" Id="c0t0v" Path="Waveform Data:Waveform" PathElementMemberKinds="Field:Field" Usage="Optional" />
 				</PropertyNode>
 				<Wire Id="f444b10558b840dfbb2bd559bbb43c12" Joints="N(11cfc2bc58c4e8abbaf8dc8813c62df:i0)|(6,165) N(a8f9240afbe8434aac697173671464c4:instance in)|(15,165)" xmlns="http://www.ni.com/PlatformFramework" />
-				<CaseStructure Bounds="210 35 580 330" DataType="@6cacb09f14694191a5062a9e46712dce" Default="963d1b31017f455f9344fb16834497da" Id="cb8c044e8c80424ba0549b444fd5bd70" Selected="963d1b31017f455f9344fb16834497da" UserSelectorBounds="230 0 119 17">
+				<CaseStructure Bounds="210 35 580 330" DataType="@2dddf14c9466464fa7d6320683a41b21" Default="963d1b31017f455f9344fb16834497da" Id="cb8c044e8c80424ba0549b444fd5bd70" Selected="963d1b31017f455f9344fb16834497da" UserSelectorBounds="230 0 119 17">
 					<CaseStructure.Case Bounds="5 5 570 320" Id="dbaef17039e44f9e85f6f8645eb2001b" Pattern="&quot;Constant&quot;">
 						<Wire Id="cca2b616e353477a9ff59d0900b23beb" Joints="N(c724c8dd13dd4866afb6bfa5ef175331:dbaef17039e44f9e85f6f8645eb2001b)|(4,125) N(413c7d9da00e4fa3bb7b79d038042739:dbaef17039e44f9e85f6f8645eb2001b)|(566,125)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="80f03de172ad4b78a89536181cbaa6d9" Joints="N(d703d840a8b4dc1b31a9e3283c6b3ab:dbaef17039e44f9e85f6f8645eb2001b)|(4,85) N(6baca622565c4619818b408c565b28a1:dbaef17039e44f9e85f6f8645eb2001b)|(566,85)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 570 320" Id="963d1b31017f455f9344fb16834497da" Pattern="Default">
-						<PropertyNode Bounds="10 120 182 35" HasErrorTerminals="False" Id="c65d607955f041c59bd03f2ca0d71307" InstanceDataType="@8542a00bc922459db9611fd4571c5ed3" xmlns="http://www.ni.com/MocCommon">
+						<PropertyNode Bounds="10 120 182 35" HasErrorTerminals="False" Id="c65d607955f041c59bd03f2ca0d71307" InstanceDataType="@73c14b90459c44ae8e78d5e75c555c41" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="WebApp::typedefs::Test Step Data.gtype" />
 								<TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveform Data.gtype" />
@@ -75,7 +75,7 @@
 									<BooleanBehavior />
 								</Literal>
 								<Wire Id="ad6ac2f03fbb49299ab5f5bd5f47cd9d" Joints="N(60092fec62c44a9a52410aa93cbdcdc:Out)|(280,25) N(325dc2040c9444e69c000d02529f25e4:354cc19063ba43108e98633e0fdb5930)|(296,25)" xmlns="http://www.ni.com/PlatformFramework" />
-								<PropertyNode Bounds="80 60 199 35" HasErrorTerminals="False" Id="4fea72f86c64360a5e97b2ace7a76bd" InstanceDataType="@8542a00bc922459db9611fd4571c5ed3" xmlns="http://www.ni.com/MocCommon">
+								<PropertyNode Bounds="80 60 199 35" HasErrorTerminals="False" Id="4fea72f86c64360a5e97b2ace7a76bd" InstanceDataType="@73c14b90459c44ae8e78d5e75c555c41" xmlns="http://www.ni.com/MocCommon">
 									<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 										<TypeDefinitionTarget TargetName="WebApp::typedefs::Test Step Data.gtype" />
 										<TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveform Data.gtype" />
@@ -291,17 +291,17 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="8542a00bc922459db9611fd4571c5ed3">
-			<Attributed AttributedType="@88fed1e08fe942df8f845c2b737b7dfa">
+		<p.TypeReference TypeId="73c14b90459c44ae8e78d5e75c555c41">
+			<Attributed AttributedType="@cc1072cb1f0c4bd2ba699e6c598f5b9e">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6cacb09f14694191a5062a9e46712dce">
+		<p.TypeReference TypeId="2dddf14c9466464fa7d6320683a41b21">
 			<Attributed AttributedType="@d62b9f986009488c9345c2e621120539">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::IO" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::waveform" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
@@ -329,18 +329,11 @@
 		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
 			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="88fed1e08fe942df8f845c2b737b7dfa">
-			<Typedef TypedefName="Test Step Data.gtype" UnderlyingType="@42108cbeadef473a86e0d6f5a849131e" />
+		<p.TypeReference TypeId="cc1072cb1f0c4bd2ba699e6c598f5b9e">
+			<Typedef TypedefName="Test Step Data.gtype" UnderlyingType="@1fbb46b757d34e0ba25d5ebf05c348f9" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="d62b9f986009488c9345c2e621120539">
 			<Typedef TypedefName="Waveforms.gtype" UnderlyingType="@bd9a9a302ea04df19941d01bd5d5b0d8" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="73c14b90459c44ae8e78d5e75c555c41">
-			<Attributed AttributedType="@cc1072cb1f0c4bd2ba699e6c598f5b9e">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
-				</AttributeValues>
-			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="ee3ca611d8374c80a9cb7b81a9c6ee5b">
 			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@bea064cbd41c4a5786d789c9a2458d50">
@@ -399,11 +392,11 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="42108cbeadef473a86e0d6f5a849131e">
+		<p.TypeReference TypeId="1fbb46b757d34e0ba25d5ebf05c348f9">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Duration (s)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Waveform Data" DataType="@b7d63ceb383c44f6a0b1054a33b5d9a4" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Waveform Data" DataType="@4865e1e2d2b244feaa924cb420497436" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Fault Probability" DataType="Double" />
 				</Members>
 			</Composite>
@@ -417,9 +410,6 @@
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
-		</p.TypeReference>
-		<p.TypeReference TypeId="cc1072cb1f0c4bd2ba699e6c598f5b9e">
-			<Typedef TypedefName="Test Step Data.gtype" UnderlyingType="@1fbb46b757d34e0ba25d5ebf05c348f9" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="bea064cbd41c4a5786d789c9a2458d50">
 			<Attributed AttributedType="@e7727455b84f4f7386e18c3e956222a3">
@@ -465,21 +455,12 @@
 		<p.TypeReference TypeId="e514662b8b6a49ffb833fe0f7de20c2a">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="b7d63ceb383c44f6a0b1054a33b5d9a4">
-			<Attributed AttributedType="@6db2d9e301f24d66975a0bd3a1e2a2bc">
+		<p.TypeReference TypeId="4865e1e2d2b244feaa924cb420497436">
+			<Attributed AttributedType="@1a4e69ee37ff40798ed88deed947334c">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::IO" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::waveform" />
 				</AttributeValues>
 			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="1fbb46b757d34e0ba25d5ebf05c348f9">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Duration (s)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Waveform Data" DataType="@4865e1e2d2b244feaa924cb420497436" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Fault Probability" DataType="Double" />
-				</Members>
-			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="e7727455b84f4f7386e18c3e956222a3">
 			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@bea064cbd41c4a5786d789c9a2458d50">
@@ -492,15 +473,8 @@
 		<p.TypeReference TypeId="268b06fd53794a2090bef870f8750593">
 			<Typedef TypedefName="Message Cluster.gtype" UnderlyingType="@edf3d2186c934836ba541026fcca7142" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="6db2d9e301f24d66975a0bd3a1e2a2bc">
-			<Typedef TypedefName="Waveform Data.gtype" UnderlyingType="@85799fd235714fcd8c07d5adf2ae473a" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="4865e1e2d2b244feaa924cb420497436">
-			<Attributed AttributedType="@1a4e69ee37ff40798ed88deed947334c">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::waveform" />
-				</AttributeValues>
-			</Attributed>
+		<p.TypeReference TypeId="1a4e69ee37ff40798ed88deed947334c">
+			<Typedef TypedefName="Waveform Data.gtype" UnderlyingType="@da4e6762780c4630bb94103d1e26b735" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="edf3d2186c934836ba541026fcca7142">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -510,18 +484,6 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="85799fd235714fcd8c07d5adf2ae473a">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Waveform" DataType="@6cacb09f14694191a5062a9e46712dce" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Amplitude" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Frequency" DataType="Double" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="1a4e69ee37ff40798ed88deed947334c">
-			<Typedef TypedefName="Waveform Data.gtype" UnderlyingType="@da4e6762780c4630bb94103d1e26b735" />
-		</p.TypeReference>
 		<p.TypeReference TypeId="da4e6762780c4630bb94103d1e26b735">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
@@ -530,13 +492,6 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Frequency" DataType="Double" />
 				</Members>
 			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="2dddf14c9466464fa7d6320683a41b21">
-			<Attributed AttributedType="@d62b9f986009488c9345c2e621120539">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::waveform" />
-				</AttributeValues>
-			</Attributed>
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
