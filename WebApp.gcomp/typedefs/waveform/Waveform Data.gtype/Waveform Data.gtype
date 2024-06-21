@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3A53402164DDF1DAD1C4BD3D885D33837866E8F2021346ADABB8FAC41EF52D5BFA788CFF2FCDFCD77B9009E01170A9A15BAA575810BE3909297F790B6826A42D" Timestamp="1DAC3B8D1784533" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@da4e6762780c4630bb94103d1e26b735" Id="9d8710180ff642a491d0dd7886e785c1" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveforms.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="7b0c4c88380949449b96da4456a19397" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="e810c753cadf45b4b4aec2e8a6c9b4f2" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="6ffed1bdb6bd4916a9f37cd1af4962fc" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@da4e6762780c4630bb94103d1e26b735" Id="d1a8ba654634f2b9c0f03daf72c216a" Name="Waveform Data">
+			<p.DefaultValue>0_0x0_0x0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveforms.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="93053b7925114116b137c3b2b5a34543" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="dc91711b7bbb4c4897d59810f2454d8b" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="56faebac309a4da9bc47a8accb3898c3" Name="Waveform Data.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="19d8f4b3a1d94055b1728e9025e8b4b3" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="3d662e376ffd4ed9976cb05a0a7f54c4" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@da4e6762780c4630bb94103d1e26b735" Height="[float]60" Id="bff81fbde5de4c2a8662f4cdac874636" Label="[UIModel]474c3fdbb5aa44539133288398bfbdd3" Left="[float]330" TabIndex="[int]0" Top="[float]169" Value="{DataItemBinding Id=d1a8ba654634f2b9c0f03daf72c216a}" Width="[float]248" xmlns="http://www.ni.com/PanelCommon">
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Waveform" Height="[float]24" Id="c9b36df25d8c4c43aa7625b3b9956e47" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]34899cf5073d4584936b5e19ac1b0c81" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Waveform}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p7:ControlDefinitionChecksum="tmSVKzNODIdbd2JOF24V0jk5sZNHc1zlKZ7eLg0H2UQ=_v1" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveforms.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelectorInfo DisplayValue="[string]Constant" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Sawtooth" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Sinusoid" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="34899cf5073d4584936b5e19ac1b0c81" LabelOwner="[UIModel]c9b36df25d8c4c43aa7625b3b9956e47" Left="[float]4" Text="[string]Waveform" Top="[float]4" Width="[float]55" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6b1bc04989324dd8a88914607d8b508c" Label="[UIModel]543a47e59d146ad917af15445d8501b" Left="[float]84" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Amplitude}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="543a47e59d146ad917af15445d8501b" LabelOwner="[UIModel]6b1bc04989324dd8a88914607d8b508c" Left="[float]84" Text="[string]Amplitude" Top="[float]4" Width="[float]56" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="f2d995bd823b49019a0feea4ca44404b" Label="[UIModel]94460da52268475bbfbb31b528d7d61c" Left="[float]164" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Frequency}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="94460da52268475bbfbb31b528d7d61c" LabelOwner="[UIModel]f2d995bd823b49019a0feea4ca44404b" Left="[float]164" Text="[string]Frequency" Top="[float]4" Width="[float]55" />
+					</Cluster>
+					<Label Height="[float]16" Id="474c3fdbb5aa44539133288398bfbdd3" LabelOwner="[UIModel]bff81fbde5de4c2a8662f4cdac874636" Left="[float]330" Text="[string]Waveform Data" Top="[float]149" Width="[float]83" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="da4e6762780c4630bb94103d1e26b735">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Waveform" DataType="@2dddf14c9466464fa7d6320683a41b21" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Amplitude" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Frequency" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2dddf14c9466464fa7d6320683a41b21">
+			<Attributed AttributedType="@d62b9f986009488c9345c2e621120539">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::waveform" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d62b9f986009488c9345c2e621120539">
+			<Typedef TypedefName="Waveforms.gtype" UnderlyingType="@bd9a9a302ea04df19941d01bd5d5b0d8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd9a9a302ea04df19941d01bd5d5b0d8">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Constant" />
+					<EnumerationMember Value="1" Name="Sawtooth" />
+					<EnumerationMember Value="2" Name="Sinusoid" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

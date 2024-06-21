@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="87950103C4B6444D442B01AEA7EFA443E1DDD674A87590702835416270CF8D3529794000C5614EF3C8FF9B87901999DC5FE32AC702058AB68BF8FE967B8A0CAD" Timestamp="1DAC3B8FF444A28" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@84e35660837e47b6958f3ac1d8b107df" Id="4ce107f6989449cd8933ea5f18173071" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype" />
+			<TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Step Data.gtype" />
+			<TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Sequence.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="9789908ad7334c63a98adb0a5c54aaa4" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="6092ab7f11a74f3f96e02adc3935e022" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="6e6b6ff9d61e484aa113707df8cfed27" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@84e35660837e47b6958f3ac1d8b107df" Id="a5382a7f246d4b2b8cef4c2329922009" Name="Manager Data">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0</Field1>
+					<Field2>
+						<Cluster>
+							<Field1>0</Field1>
+							<Field2>""</Field2>
+						</Cluster>
+					</Field2>
+					<Field3>null</Field3>
+					<Field4>null</Field4>
+					<Field5>""</Field5>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype" />
+				<TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Step Data.gtype" />
+				<TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Sequence.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="493ff4c26e7b4b5b82352daa2de19127" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="ee7425f423784b9780eda7c95ac91088" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7314a25f0b5343bd8efd6bf17d0337bf" Name="Manager Data.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="ffb6202550cc4f7caa15d82186341c4c" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="f990950b7c5f48c9922ce6df26f10899" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@84e35660837e47b6958f3ac1d8b107df" Height="[float]500" Id="6096adac88c443428fc568d46235031c" Label="[UIModel]3ec3db36e0e54b049e90f649e92d73ed" Left="[float]214" TabIndex="[int]0" Top="[float]161" Value="{DataItemBinding Id=a5382a7f246d4b2b8cef4c2329922009}" Width="[float]348" xmlns="http://www.ni.com/PanelCommon">
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Manager State" Height="[float]24" Id="d097fbcb7c1f477184ba48fb56e6bf4d" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]5d69aca130d14e7e9d613783f2c2da8a" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Current\ State}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p7:ControlDefinitionChecksum="MwcrRaLOCwfVfN0bnCVOH4q2a3imAkZqcvR72oNil6E=_v1" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelectorInfo DisplayValue="[string]Idle" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Initialize" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Execute" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Finalize" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Cancel" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Error" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="5d69aca130d14e7e9d613783f2c2da8a" LabelOwner="[UIModel]d097fbcb7c1f477184ba48fb56e6bf4d" Left="[float]4" Text="[string]Current State" Top="[float]4" Width="[float]78" />
+						<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Step Data" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@951a8c968b8044c39c9b6d86472cf0b3" Height="[float]60" Id="3e16976954f4424885868a0aa601a690" IsTabStop="[bool]True" Label="[UIModel]d4fb490951dd4fce88f0dee752aa341a" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Current\ Step}" Width="[float]182" p7:ControlDefinitionChecksum="B9xj22ujsD63bH9faicm70YcuGKwhxUr8FP5sOzHa38=_v1" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Step Data.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Message Queue Names" Height="[float]24" Id="306f8ea303b14ef199d7241417a652ac" IsTypeAheadEnabled="[bool]True" Label="[UIModel]29bbf4eb250848d18531421c5865e0af" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Message\ Queue}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p7:ControlDefinitionChecksum="OUVnhiSS0YnALcLzBbIMJFVJgMfHnchpti1CUJYIqFA=_v1" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+								<p7:p.TypeDefinitionTargets>
+									<p7:TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype::ControlDefinition" />
+								</p7:p.TypeDefinitionTargets>
+								<EnumSelectorInfo DisplayValue="[string]Manager" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+								<EnumSelectorInfo DisplayValue="[string]UI" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+								<EnumSelectorInfo DisplayValue="[string]IO" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+							</EnumSelector>
+							<p7:Label Height="[float]16" Id="29bbf4eb250848d18531421c5865e0af" LabelOwner="[UIModel]306f8ea303b14ef199d7241417a652ac" Left="[float]4" Text="[string]Message Queue" Top="[float]4" Width="[float]86" />
+							<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="e54930eb04d144f3a00b4115db4f1b57" Label="[UIModel]cffffdda6c5448589e07ba5a108f5641" Left="[float]98" TabIndex="[int]1" Text="{ClusterBinding FieldName=Action}" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="cffffdda6c5448589e07ba5a108f5641" LabelOwner="[UIModel]e54930eb04d144f3a00b4115db4f1b57" Left="[float]98" Text="[string]Action" Top="[float]4" Width="[float]35" />
+						</Cluster>
+						<Label Height="[float]16" Id="d4fb490951dd4fce88f0dee752aa341a" LabelOwner="[UIModel]3e16976954f4424885868a0aa601a690" Left="[float]4" Text="[string]Current Step" Top="[float]56" Width="[float]67" />
+						<ArrayViewer ArrayElement="[UIModel]680b3948223b409ba7140f40fab62798" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]72" Id="c2bd1525f395466881b4d445504dc36c" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]f03bf7501b2e4e12846d882b988b77d7" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]2" Top="[float]164" Value="{ClusterBinding FieldName=Remaining\ Steps}" Width="[float]249">
+							<p.DefaultElementValue>
+								<Cluster>
+									<Field1>0</Field1>
+									<Field2>""</Field2>
+								</Cluster>
+							</p.DefaultElementValue>
+							<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Step Data" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@951a8c968b8044c39c9b6d86472cf0b3" Height="[float]60" Id="680b3948223b409ba7140f40fab62798" IsTabStop="[bool]True" Label="[UIModel]e4ad82c696d64e14b0426e8f01300bf6" LabelLinked="[bool]True" TabIndex="[int]0" Width="[float]182" p8:ControlDefinitionChecksum="B9xj22ujsD63bH9faicm70YcuGKwhxUr8FP5sOzHa38=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Step Data.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Message Queue Names" Height="[float]24" Id="4b90fb695cc5407ea94b3ebf7726998b" IsTypeAheadEnabled="[bool]True" Label="[UIModel]8f3616afe6c045daa46f69af080cd2d9" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Message\ Queue}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p8:ControlDefinitionChecksum="OUVnhiSS0YnALcLzBbIMJFVJgMfHnchpti1CUJYIqFA=_v1" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+									<p8:p.TypeDefinitionTargets>
+										<p8:TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype::ControlDefinition" />
+									</p8:p.TypeDefinitionTargets>
+									<EnumSelectorInfo DisplayValue="[string]Manager" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]UI" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]IO" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+								</EnumSelector>
+								<p8:Label Height="[float]16" Id="8f3616afe6c045daa46f69af080cd2d9" LabelOwner="[UIModel]4b90fb695cc5407ea94b3ebf7726998b" Left="[float]4" Text="[string]Message Queue" Top="[float]4" Width="[float]86" />
+								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="15881b84707b4a129296147374a79f64" Label="[UIModel]2e26c8448db74ca8937855a12ae06c94" Left="[float]98" TabIndex="[int]1" Text="{ClusterBinding FieldName=Action}" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Height="[float]16" Id="2e26c8448db74ca8937855a12ae06c94" LabelOwner="[UIModel]15881b84707b4a129296147374a79f64" Left="[float]98" Text="[string]Action" Top="[float]4" Width="[float]35" />
+								<p8:Label Height="[float]16" Id="e4ad82c696d64e14b0426e8f01300bf6" IsVisualChild="[bool]False" LabelOwner="[UIModel]680b3948223b409ba7140f40fab62798" Left="[float]0" Text="[string]Current Step" Top="[float]-20" Width="[float]52" />
+							</Cluster>
+						</ArrayViewer>
+						<Label Height="[float]16" Id="f03bf7501b2e4e12846d882b988b77d7" LabelOwner="[UIModel]c2bd1525f395466881b4d445504dc36c" Left="[float]4" Text="[string]Remaining Steps" Top="[float]144" Width="[float]88" />
+						<ArrayViewer ArrayElement="[UIModel]fbe46713a73245668598ddcf5ecb410f" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]172" Id="4c532876a31d4fb48ae9d4b63105f7ec" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]fb4d0c67e8f547fb937164f83b3150a1" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]3" Top="[float]264" Value="{ClusterBinding FieldName=Remaining\ Sequences}" Width="[float]332">
+							<p.DefaultElementValue>
+								<Cluster>
+									<Field1>0</Field1>
+									<Field2>null</Field2>
+								</Cluster>
+							</p.DefaultElementValue>
+							<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Sequence" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4cd8ab25b99249038c299ea540e287b6" Height="[float]160" Id="fbe46713a73245668598ddcf5ecb410f" IsTabStop="[bool]True" Label="[UIModel]cc8487077c194b2d8deb1af3ecc0f33c" LabelLinked="[bool]True" TabIndex="[int]0" Width="[float]265" p8:ControlDefinitionChecksum="F577kG27UVDFButgwFhTt+D6rUCbMbAUEvKkNK+rZ9s=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Sequence.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Manager State" Height="[float]24" Id="6056e8567374c108f41b2f6bcf4d8e8" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]33993808fbc24ea1a0ba9307192ccc24" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Manager\ State}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p8:ControlDefinitionChecksum="MwcrRaLOCwfVfN0bnCVOH4q2a3imAkZqcvR72oNil6E=_v1" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+									<p8:p.TypeDefinitionTargets>
+										<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype::ControlDefinition" />
+									</p8:p.TypeDefinitionTargets>
+									<EnumSelectorInfo DisplayValue="[string]Idle" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]Initialize" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]Execute" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]Finalize" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]Cancel" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]Error" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+								</EnumSelector>
+								<p8:Label Height="[float]16" Id="33993808fbc24ea1a0ba9307192ccc24" LabelOwner="[UIModel]6056e8567374c108f41b2f6bcf4d8e8" Left="[float]4" Text="[string]Manager State" Top="[float]4" Width="[float]78" />
+								<p8:ArrayViewer ArrayElement="[UIModel]94b935843d6b428ebd3d6a08e8c4e2e5" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]72" Id="a163eb82cc5c451e93c0916d51dd3433" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]1d780937ca141a6bb98289da4b2fc73" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Steps}" Width="[float]249">
+									<p.DefaultElementValue>
+										<Cluster>
+											<Field1>0</Field1>
+											<Field2>""</Field2>
+										</Cluster>
+									</p.DefaultElementValue>
+									<p8:Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Step Data" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@951a8c968b8044c39c9b6d86472cf0b3" Height="[float]60" Id="94b935843d6b428ebd3d6a08e8c4e2e5" IsTabStop="[bool]True" Label="[UIModel]8dce2dd84a4f4bdb95dee323087c798c" LabelLinked="[bool]True" TabIndex="[int]0" Width="[float]182" p8:ControlDefinitionChecksum="B9xj22ujsD63bH9faicm70YcuGKwhxUr8FP5sOzHa38=_v1">
+										<p8:p.TypeDefinitionTargets>
+											<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::instruction::Step Data.gtype::ControlDefinition" />
+										</p8:p.TypeDefinitionTargets>
+										<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Message Queue Names" Height="[float]24" Id="c2a12e8809fa46dbbac122f7f702b353" IsTypeAheadEnabled="[bool]True" Label="[UIModel]deea16642558474fbabc91e87eb60549" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Message\ Queue}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p8:ControlDefinitionChecksum="OUVnhiSS0YnALcLzBbIMJFVJgMfHnchpti1CUJYIqFA=_v1" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+											<p8:p.TypeDefinitionTargets>
+												<p8:TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype::ControlDefinition" />
+											</p8:p.TypeDefinitionTargets>
+											<EnumSelectorInfo DisplayValue="[string]Manager" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+											<EnumSelectorInfo DisplayValue="[string]UI" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+											<EnumSelectorInfo DisplayValue="[string]IO" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+										</EnumSelector>
+										<p8:Label Height="[float]16" Id="deea16642558474fbabc91e87eb60549" LabelOwner="[UIModel]c2a12e8809fa46dbbac122f7f702b353" Left="[float]4" Text="[string]Message Queue" Top="[float]4" Width="[float]86" />
+										<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="eedeafcddbd84846ac74ef924ca87412" Label="[UIModel]cdc94b62031041fa8643dadab4ca6cd3" Left="[float]98" TabIndex="[int]1" Text="{ClusterBinding FieldName=Action}" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+										<p8:Label Height="[float]16" Id="cdc94b62031041fa8643dadab4ca6cd3" LabelOwner="[UIModel]eedeafcddbd84846ac74ef924ca87412" Left="[float]98" Text="[string]Action" Top="[float]4" Width="[float]35" />
+										<p8:Label Height="[float]16" Id="8dce2dd84a4f4bdb95dee323087c798c" IsVisualChild="[bool]False" LabelOwner="[UIModel]94b935843d6b428ebd3d6a08e8c4e2e5" Left="[float]0" Text="[string]Current Step" Top="[float]-20" Width="[float]52" />
+									</p8:Cluster>
+								</p8:ArrayViewer>
+								<p8:Label Height="[float]16" Id="1d780937ca141a6bb98289da4b2fc73" LabelOwner="[UIModel]a163eb82cc5c451e93c0916d51dd3433" Left="[float]4" Text="[string]Steps" Top="[float]56" Width="[float]29" />
+								<p8:Label Height="[float]16" Id="cc8487077c194b2d8deb1af3ecc0f33c" IsVisualChild="[bool]False" LabelOwner="[UIModel]fbe46713a73245668598ddcf5ecb410f" Left="[float]0" Text="[string]Sequence" Top="[float]-20" Width="[float]52" />
+							</Cluster>
+						</ArrayViewer>
+						<Label Height="[float]16" Id="fb4d0c67e8f547fb937164f83b3150a1" LabelOwner="[UIModel]4c532876a31d4fb48ae9d4b63105f7ec" Left="[float]4" Text="[string]Remaining Sequences" Top="[float]244" Width="[float]116" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ab951d275f564c3b9b250fe6c4dc79c2" Label="[UIModel]6f0a8370640d45fca54b5b67ff2f4094" Left="[float]4" TabIndex="[int]4" Text="{ClusterBinding FieldName=Current\ Instruction}" Top="[float]464" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="6f0a8370640d45fca54b5b67ff2f4094" LabelOwner="[UIModel]ab951d275f564c3b9b250fe6c4dc79c2" Left="[float]4" Text="[string]Current Instruction" Top="[float]444" Width="[float]100" />
+					</Cluster>
+					<Label Height="[float]16" Id="3ec3db36e0e54b049e90f649e92d73ed" LabelOwner="[UIModel]6096adac88c443428fc568d46235031c" Left="[float]214" Text="[string]Manager Data" Top="[float]141" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="84e35660837e47b6958f3ac1d8b107df">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Current State" DataType="@e81a359a73e1452084da900390ea6367" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Step" DataType="@951a8c968b8044c39c9b6d86472cf0b3" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Remaining Steps" DataType="@87c33332f5ce45d682ee22154a32246d" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Remaining Sequences" DataType="@fa02e42e345b471e8801439c3dc5c167" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Instruction" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="951a8c968b8044c39c9b6d86472cf0b3">
+			<Attributed AttributedType="@b782a34a365d489eb5b0af7837500d6c">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::instruction" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4cd8ab25b99249038c299ea540e287b6">
+			<Attributed AttributedType="@1901e62dea01469e9eb5c6c38cdd54fc">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::instruction" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e81a359a73e1452084da900390ea6367">
+			<Attributed AttributedType="@7523cd78e5f849e0b06e370c52147514">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::manager" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="87c33332f5ce45d682ee22154a32246d">
+			<VariableArray DereferenceType="@951a8c968b8044c39c9b6d86472cf0b3" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="fa02e42e345b471e8801439c3dc5c167">
+			<VariableArray DereferenceType="@4cd8ab25b99249038c299ea540e287b6" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b782a34a365d489eb5b0af7837500d6c">
+			<Typedef TypedefName="Step Data.gtype" UnderlyingType="@603e2ce2c49a4c96acf45ec6d7987de6" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1901e62dea01469e9eb5c6c38cdd54fc">
+			<Typedef TypedefName="Sequence.gtype" UnderlyingType="@32ded988ab444a8591e8a042e9e34e7b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="7523cd78e5f849e0b06e370c52147514">
+			<Typedef TypedefName="Manager State.gtype" UnderlyingType="@befe360776f64f74b5d0922a3abd631c" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="603e2ce2c49a4c96acf45ec6d7987de6">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Queue" DataType="@e8d6ffa779c04682a0a568d3ea6f8311" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Action" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="32ded988ab444a8591e8a042e9e34e7b">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Manager State" DataType="@e81a359a73e1452084da900390ea6367" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Steps" DataType="@87c33332f5ce45d682ee22154a32246d" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="befe360776f64f74b5d0922a3abd631c">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Idle" />
+					<EnumerationMember Value="1" Name="Initialize" />
+					<EnumerationMember Value="2" Name="Execute" />
+					<EnumerationMember Value="3" Name="Finalize" />
+					<EnumerationMember Value="4" Name="Cancel" />
+					<EnumerationMember Value="5" Name="Error" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e8d6ffa779c04682a0a568d3ea6f8311">
+			<Attributed AttributedType="@89a63e9cf6724c739d4eb66d6b360643">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::support::Message Queue" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="89a63e9cf6724c739d4eb66d6b360643">
+			<Typedef TypedefName="Message Queue Names.gtype" UnderlyingType="@111beafcac534b1b9fd9626fd0f359d5" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="111beafcac534b1b9fd9626fd0f359d5">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Manager" />
+					<EnumerationMember Value="1" Name="UI" />
+					<EnumerationMember Value="2" Name="IO" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

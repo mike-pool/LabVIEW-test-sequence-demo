@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B82F7627C5BC6835EEAE78EB32F383C1F668FDFC956E540AEC611994499256B548B401317F6A016902A77AF2DE0CCDBE85E0D634C832BFA42B2D672A74B2687D" Timestamp="1DAC22A74B14D61" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="85A20242D375BB0B7219ABF5E29F1DAE5E06D26D085F138EAF8F6C5F4DEF3B85DB7B168F6A783E6654AC25EA5976FD5CE2777846E99040C3BA48E90FEE3307E0" Timestamp="1DAC3B8CFDAEBA7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -63,24 +63,24 @@
 			</NodeLabel>
 			<Wire Id="74a50dfabc7440afb0919dfe13264363" Joints="N(5f4e58e6dae144aca67d1599d1fa23fd:x-y)|(1075,350) h(10) B(1) N(cfb1da9c4cbf4cff94175baa2f28326c:x)|(1155,350) B(1) v(50) B(3) N(99b656284124ec9accb506f8beadfb1:x)|(1155,400) B(3) v(55) B(5) N(f585660d2ce45909b8f85bdc2443f09:Value)|(1823,455) B(5) v(105) N(fbca22292d5f41d4b2d4b7afd4e029a9:c0t0v)|(1125,560)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="705 340 40 15" DataItem="fc7fc16449844db5ac1a28185e3d17e1" Id="e3e614f023a04357913d6053872dcbd1" Label="bc4f5997a284b7f9d375fa771bbd1ba" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@650ed573d2b04463bfc1101648edf502" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@519c8473de4f4066b123e9de47a4c78c" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="e3e614f023a04357913d6053872dcbd1" Bounds="705 323 44 14" Id="bc4f5997a284b7f9d375fa771bbd1ba" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>IO Data</p.Text>
 			</NodeLabel>
-			<PropertyNode Bounds="755 340 143 95" HasErrorTerminals="False" Id="f3d930a3b93341ad9eb5dcd12c054b5b" InstanceDataType="@650ed573d2b04463bfc1101648edf502" xmlns="http://www.ni.com/MocCommon">
+			<PropertyNode Bounds="755 340 143 95" HasErrorTerminals="False" Id="f3d930a3b93341ad9eb5dcd12c054b5b" InstanceDataType="@a58beeb5b1d748a6b277338ab34b6bdc" xmlns="http://www.ni.com/MocCommon">
 				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 					<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
-					<TypeDefinitionTarget TargetName="WebApp::typedefs::Waveforms.gtype" />
+					<TypeDefinitionTarget TargetName="WebApp::typedefs::waveform::Waveforms.gtype" />
 				</p.TypeDefinitionTargets>
-				<PropertyItemTerminal DataType="@301af60986e7423db7adc97889b3b71c" Hotspot="143 15" Id="c0t0v" Path="Waveform" PathElementMemberKinds="Field" Usage="Optional" />
+				<PropertyItemTerminal DataType="@6cacb09f14694191a5062a9e46712dce" Hotspot="143 15" Id="c0t0v" Path="Waveform" PathElementMemberKinds="Field" Usage="Optional" />
 				<PropertyItemTerminal DataType="Double" Hotspot="143 30" Id="c1t0v" Path="Duration (s)" PathElementMemberKinds="Field" Usage="Optional" />
 				<PropertyItemTerminal DataType="Timestamp" Hotspot="143 45" Id="c2t0v" Path="Start Time" PathElementMemberKinds="Field" Usage="Optional" />
 				<PropertyItemTerminal DataType="Double" Hotspot="143 60" Id="c3t0v" Path="Time Factor" PathElementMemberKinds="Field" Usage="Optional" />
 				<PropertyItemTerminal DataType="Double" Hotspot="143 75" Id="c4t0v" Path="Adjusted Amplitude" PathElementMemberKinds="Field" Usage="Optional" />
 			</PropertyNode>
 			<Wire Id="39d57d70615740e099adebdb6b8c73bc" Joints="N(e3e614f023a04357913d6053872dcbd1:Value)|(745,345) N(f3d930a3b93341ad9eb5dcd12c054b5b:instance in)|(755,345)" xmlns="http://www.ni.com/PlatformFramework" />
-			<PropertyNode Bounds="1415 310 111 35" HasErrorTerminals="False" Id="13e0e40ad07f46448094e117231bff8c" InstanceDataType="@650ed573d2b04463bfc1101648edf502" xmlns="http://www.ni.com/MocCommon">
+			<PropertyNode Bounds="1415 310 111 35" HasErrorTerminals="False" Id="13e0e40ad07f46448094e117231bff8c" InstanceDataType="@a58beeb5b1d748a6b277338ab34b6bdc" xmlns="http://www.ni.com/MocCommon">
 				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 					<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
 				</p.TypeDefinitionTargets>
@@ -88,7 +88,7 @@
 			</PropertyNode>
 			<Wire Id="1510b06a9ab14a349579fd7e31dfd050" Joints="N(f3d930a3b93341ad9eb5dcd12c054b5b:instance out)|(898,345) h(92) v(-30) N(13e0e40ad07f46448094e117231bff8c:instance in)|(1415,315)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="1805 310 40 15" DataItem="40db7216b4514f3ebd5a871d1c9051ce" Id="a18f1b66d60f430ab5719b45d90fbb95" Label="b8d2375f9e4d45568595f1796ac210e8" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@650ed573d2b04463bfc1101648edf502" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@519c8473de4f4066b123e9de47a4c78c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="a18f1b66d60f430ab5719b45d90fbb95" Bounds="1850 310 64 14" Id="b8d2375f9e4d45568595f1796ac210e8" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>IO data out</p.Text>
@@ -107,7 +107,7 @@
 			<CaseStructure Bounds="1220 480 580 315" Default="6c8008c857f245b288626e354df918ec" Id="d38f477e6d5c453397f7b8f628941b42" Selected="92eae46675a34cc0bf74599335f483ed" UserSelectorBounds="246 0 88 17">
 				<CaseStructure.Case Bounds="5 5 570 305" Id="6c8008c857f245b288626e354df918ec" Pattern="False" />
 				<CaseStructure.Case Bounds="5 5 570 305" Id="92eae46675a34cc0bf74599335f483ed" Pattern="True">
-					<CaseStructure Bounds="45 25 490 250" DataType="@301af60986e7423db7adc97889b3b71c" Id="b38289da37d841a7bb9971472b7a85a7" Selected="47b50813511042419dc7ae5dc18fa56e" UserSelectorBounds="184 0 122 17">
+					<CaseStructure Bounds="45 25 490 250" DataType="@6cacb09f14694191a5062a9e46712dce" Id="b38289da37d841a7bb9971472b7a85a7" Selected="47b50813511042419dc7ae5dc18fa56e" UserSelectorBounds="184 0 122 17">
 						<CaseStructure.Case Bounds="5 5 480 240" Id="626dca6f07d044e7acce58ad6d2d0dba" Pattern="&quot;Constant&quot;">
 							<Wire Id="30e523e69ab34d2198081fc70e387e80" Joints="N(a2d3097db27a498aa7f01b735301a282:626dca6f07d044e7acce58ad6d2d0dba)|(4,115) N(271d6fd9b0704df68fe9fa262747c8c0:626dca6f07d044e7acce58ad6d2d0dba)|(476,115)" xmlns="http://www.ni.com/PlatformFramework" />
 						</CaseStructure.Case>
@@ -175,13 +175,13 @@
 		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="1" DataType="Double" Id="ce120aaa1c7d4a3f9acb26cb3ca95b35" Name="Wave Value" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@650ed573d2b04463bfc1101648edf502" Id="fc7fc16449844db5ac1a28185e3d17e1" Name="IO Data" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@519c8473de4f4066b123e9de47a4c78c" Id="fc7fc16449844db5ac1a28185e3d17e1" Name="IO Data" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0_0x0_60052752000;0;Utc_0x0_0x0_False_False_0x0_</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="2" DataType="@650ed573d2b04463bfc1101648edf502" Id="40db7216b4514f3ebd5a871d1c9051ce" Name="IO data out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="2" DataType="@519c8473de4f4066b123e9de47a4c78c" Id="40db7216b4514f3ebd5a871d1c9051ce" Name="IO data out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0_0x0_60052752000;0;Utc_0x0_0x0_False_False_0x0_</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
@@ -192,30 +192,54 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="650ed573d2b04463bfc1101648edf502">
-			<Attributed AttributedType="@9b5a31e6ea78488eafd1a872f782ffce">
+		<p.TypeReference TypeId="519c8473de4f4066b123e9de47a4c78c">
+			<Attributed AttributedType="@e92a2eab6a6e40f599cb437d568e17be">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="301af60986e7423db7adc97889b3b71c">
+		<p.TypeReference TypeId="a58beeb5b1d748a6b277338ab34b6bdc">
+			<Attributed AttributedType="@1a92ba0dcc1e4ac5a338d2b6ee82c855">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6cacb09f14694191a5062a9e46712dce">
 			<Attributed AttributedType="@d62b9f986009488c9345c2e621120539">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::IO" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9b5a31e6ea78488eafd1a872f782ffce">
-			<Typedef TypedefName="IO Data.gtype" UnderlyingType="@42b9d43dd8ca490fa520611278c23b06" />
+		<p.TypeReference TypeId="e92a2eab6a6e40f599cb437d568e17be">
+			<Typedef TypedefName="IO Data.gtype" UnderlyingType="@1fb0e8f95e1044da883c5589c8a01099" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1a92ba0dcc1e4ac5a338d2b6ee82c855">
+			<Typedef TypedefName="IO Data.gtype" UnderlyingType="@3181979b9aec409888b20ff039025b21" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="d62b9f986009488c9345c2e621120539">
 			<Typedef TypedefName="Waveforms.gtype" UnderlyingType="@bd9a9a302ea04df19941d01bd5d5b0d8" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="42b9d43dd8ca490fa520611278c23b06">
+		<p.TypeReference TypeId="1fb0e8f95e1044da883c5589c8a01099">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Waveform" DataType="@301af60986e7423db7adc97889b3b71c" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Waveform" DataType="@2dddf14c9466464fa7d6320683a41b21" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Duration (s)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Time Factor" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Adjusted Amplitude" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="New Wave" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Wave Active" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Fault start time" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3181979b9aec409888b20ff039025b21">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Waveform" DataType="@6cacb09f14694191a5062a9e46712dce" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Duration (s)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Time Factor" DataType="Double" />
@@ -235,6 +259,13 @@
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2dddf14c9466464fa7d6320683a41b21">
+			<Attributed AttributedType="@d62b9f986009488c9345c2e621120539">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::waveform" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 </SourceFile>
