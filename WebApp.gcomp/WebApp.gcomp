@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F5495B4970ACDF699BD8007B53D6FF1D50718B27B92781186D6F5CADA428114DD45FE1A73DB1403C5A78C301D7F6BB9A0BD4ADEBB1424802163DFC3265C8CA05" Timestamp="1DAC2F337007B25" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8DF2162D281005997AD06E7E333F6510754BC6EC7CA37FD30CB664D95FABC0AD0955BA09F6AB7C02FDC75EC2DDD1601257224CC178B7BC0AF49888DFAFCC14B0" Timestamp="1DAC2F6CD47B351" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -98,6 +98,7 @@
 				<SourceFileReference Id="41cb2450e9154957aec052e60edceb1f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Validate Test Sequence.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Validate Test Sequence.gviweb" />
 				<SourceFileReference Id="875450052b4847099be3c2eb886a6a1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Data Remaining in Queue.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Handle Data Remaining in Queue.gviweb" />
 				<SourceFileReference Id="42bad890589146ee95f232decfc23639" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Error.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Handle Error.gviweb" />
+				<SourceFileReference Id="e250f95fcfee493e9df28bdeddac8c05" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Monitor Hardware Fault.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Monitor Hardware Fault.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="d0ddc10c873247caa431ee0ee747078d" Name="WebApp.gcomp" NameTracksFileName="True">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DFC2A8864B5BD68DB1202BA7024F2C103213BECC142FC70CA46417C1E11DABDCEEB36E2A66A367B61314942F1EA558D99E2D31671994F3978ED78AFE09D78A3B" Timestamp="1DAC2E9C682B64B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B4A21B0AA572CD31E4CF5665EE9AF8F6E46367D7073D1E661798A72A735C12BBE1552DA185D5DD0385B1D4421F2EA8E4E71F5D7DCA3BF319C0064D62F073A111" Timestamp="1DAC2F73B224056" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@befe360776f64f74b5d0922a3abd631c" Id="ded32fc5d8804f53944413c87556b816" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@66cbb50d187f45ccbf469c318cbe0944" Id="ded32fc5d8804f53944413c87556b816" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="576c55fa664b4c10abf0b01ec6988657" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="c0e691a25934367ba1233cfa4aca7cd" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="7c220f0b133848f0be4040d3de5fb02c" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@befe360776f64f74b5d0922a3abd631c" Id="4653ea764da24b9ba5e34e9e50307c26" Name="Manager State">
+		<DataItem DataType="@66cbb50d187f45ccbf469c318cbe0944" Id="4653ea764da24b9ba5e34e9e50307c26" Name="Manager State">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -28,7 +28,7 @@
 						<EnumSelectorInfo DisplayValue="[string]Execute" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Finalize" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Cancel" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
-						<EnumSelectorInfo DisplayValue="[string]Error" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]HW Fault" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Height="[float]16" Id="d619163db8f24e8fb455ddf0c8b9423f" LabelOwner="[UIModel]87fae6bfb44440888418b0fcc7f61af9" Left="[float]173" Text="[string]Manager State" Top="[float]112" Width="[float]78" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -36,7 +36,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="befe360776f64f74b5d0922a3abd631c">
+		<p.TypeReference TypeId="66cbb50d187f45ccbf469c318cbe0944">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Idle" />
@@ -44,7 +44,7 @@
 					<EnumerationMember Value="2" Name="Execute" />
 					<EnumerationMember Value="3" Name="Finalize" />
 					<EnumerationMember Value="4" Name="Cancel" />
-					<EnumerationMember Value="5" Name="Error" />
+					<EnumerationMember Value="5" Name="HW Fault" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
