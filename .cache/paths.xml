@@ -591,4 +591,172 @@
 			<string>Sequence_1.gtypecache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>NI.SL.Message_2468d4c4f50843e78d8f85f022f129de_8c68e5f249245d18a22738f77cc86f6.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.SL.Message.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.SL.Configuration_356bf8d5655743ffaa873b1d0b6deea7_36bae1efdcb14ec4ad39e13ccdd8783e.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.SL.Configuration.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.HTTP_da05f636cdf45798bca208d27bb3367_98f9ac98d0aa4522957c90868f9a368f.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.HTTP.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Client Handle_23_da05f636cdf45798bca208d27bb3367_98f9ac98d0aa4522957c90868f9a368f.gtypecache</string>
+		</key>
+		<value>
+			<string>Client Handle.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Workspace_3fabe63ffd6f45f4a83f47648505689d_356bf8d5655743ffaa873b1d0b6deea7_36bae1efdcb14ec4ad39e13ccdd8783e.gtypecache</string>
+		</key>
+		<value>
+			<string>Workspace.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Configuration_1f529a0f2c7f45b49d8edb7a7309e6ce_356bf8d5655743ffaa873b1d0b6deea7_36bae1efdcb14ec4ad39e13ccdd8783e.gtypecache</string>
+		</key>
+		<value>
+			<string>Configuration.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Message Session_be54ea38050e4982903093db992e4712_2468d4c4f50843e78d8f85f022f129de_8c68e5f249245d18a22738f77cc86f6.gtypecache</string>
+		</key>
+		<value>
+			<string>Message Session.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.SL.Utilities_4913e84313924f91a54eebf9bf89edef_f9aa59c5ba1e49e48cba72dd73fb5122.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.SL.Utilities.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>HTTP Verb_e6aa778c5d8f45ad946a88f5d65a01f9_4913e84313924f91a54eebf9bf89edef_f9aa59c5ba1e49e48cba72dd73fb5122.gtypecache</string>
+		</key>
+		<value>
+			<string>HTTP Verb.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>httpWebServerClient_43_da05f636cdf45798bca208d27bb3367_98f9ac98d0aa4522957c90868f9a368f.slicache</string>
+		</key>
+		<value>
+			<string>httpWebServerClient.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>httpClient_27_da05f636cdf45798bca208d27bb3367_98f9ac98d0aa4522957c90868f9a368f.slicache</string>
+		</key>
+		<value>
+			<string>httpClient.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Default Configuration_197af340a714808803d6c3215770684_356bf8d5655743ffaa873b1d0b6deea7_36bae1efdcb14ec4ad39e13ccdd8783e.gtypecache</string>
+		</key>
+		<value>
+			<string>Default Configuration.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Default Refcount Store Action_53eddf688624484e95541092ba6a8fa6_356bf8d5655743ffaa873b1d0b6deea7_36bae1efdcb14ec4ad39e13ccdd8783e.gtypecache</string>
+		</key>
+		<value>
+			<string>Default Refcount Store Action.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Auto Configuration_b352d0131da041a7b6eba3f7e8a3c9f7_356bf8d5655743ffaa873b1d0b6deea7_36bae1efdcb14ec4ad39e13ccdd8783e.gtypecache</string>
+		</key>
+		<value>
+			<string>Auto Configuration.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Occurrence_42_da05f636cdf45798bca208d27bb3367_98f9ac98d0aa4522957c90868f9a368f.gtypecache</string>
+		</key>
+		<value>
+			<string>Occurrence.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.File IO (General)_29edfa222b3d46fab701316bf3b5e9b2_8049bf9b353549e89417e22614eaf743.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.File IO (General).gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>System Directory Type_184_29edfa222b3d46fab701316bf3b5e9b2_8049bf9b353549e89417e22614eaf743.gtypecache</string>
+		</key>
+		<value>
+			<string>System Directory Type.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Headers_30_da05f636cdf45798bca208d27bb3367_98f9ac98d0aa4522957c90868f9a368f.gtypecache</string>
+		</key>
+		<value>
+			<string>Headers.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>lv_sysdir_labview_61_29edfa222b3d46fab701316bf3b5e9b2_8049bf9b353549e89417e22614eaf743.slicache</string>
+		</key>
+		<value>
+			<string>lv_sysdir_labview.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Strings_2d5cb9645ec748799b98acf73a3c0565_8049bf9b353549e89417e22614eaf743.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Strings.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>String Encoding_86_2d5cb9645ec748799b98acf73a3c0565_8049bf9b353549e89417e22614eaf743.gtypecache</string>
+		</key>
+		<value>
+			<string>String Encoding.gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>

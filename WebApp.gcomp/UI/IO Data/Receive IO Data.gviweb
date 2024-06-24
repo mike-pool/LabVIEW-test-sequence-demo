@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="297B41526E80F6FBE4EAB2739477149C0E1CF01DE418A8C59474739468DBF60FF6242152CD1F68C0C7BFDC8158A31F2EA55BCC2307BA237C3FF738B88951FAA1" Timestamp="1DAC3B8FB988B5F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FCDACD9499046296EE9C7879E0B6965AC205BFD3ABE2A6C05C39E2725D3A1DE1B0E2A04C0AC1C9C9471650BE28F90BFF9123911BB116FF3D04293E60D1427612" Timestamp="1DAC5D650F4BF68" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -184,7 +184,7 @@
 				<p.Text>length(rest)</p.Text>
 			</NodeLabel>
 			<Comment Bounds="1270 1205 210 55" Id="18786fa4629e4b038480545226d7422d" xmlns="http://www.ni.com/MocCommon">
-				<p.Text>"excludes time elapsed/ status data\r\nexcludes evaluation results\r\nrow 1: output\r\nrow 2: input"</p.Text>
+				<p.Text>"excludes time elapsed/ status data\r\nexcludes evaluation results\r\nrow 1: target\r\nrow 2: actual"</p.Text>
 			</Comment>
 			<Wire Id="722ef65b97664785a9d39894b3433f15" Joints="N(88e7f8c3418a4921b454a92e7f88acc3:Out)|(1265,1170) N(6217327652c44ed885ec983c9e1b9f85:index1)|(1295,1170)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="a3ac97837d704b63b130a564b25ea265" Joints="N(d2fd6604faab435fa32586f9541c1253:Out)|(1265,1185) h(6) v(-5) N(6217327652c44ed885ec983c9e1b9f85:length1)|(1295,1180)" xmlns="http://www.ni.com/PlatformFramework" />

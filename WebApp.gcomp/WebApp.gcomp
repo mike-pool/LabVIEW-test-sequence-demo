@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F044FDDF3986F5A8FF04D64A33294DCA52F87618823697DA70796B92EA95DEB5B72468492E7550344B0F34C8FA4F7DFA976BB9AB6A78AD4407B3CC61118A0874" Timestamp="1DAC3BE0FD2E114" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BF4464705889B50BFA7411700DD6480335E5EC0490D0EAB49E18A9B44B8D3C8C48C7A19522D223F9FBE5C26723DCB335945AE376D2289A309FBE6735FD5CF91B" Timestamp="1DAC5DD757A19EB" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -92,6 +92,8 @@
 					<SourceFileReference Id="6f038653061444768ca390f51161a3bf" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initialize Waveform.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="IO\Initialize Waveform.gviweb" />
 					<SourceFileReference Id="13cd104f081d4077960325ec4b1f4371" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Hardware IO.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="IO\Handle Hardware IO.gviweb" />
 					<SourceFileReference Id="6df5f477464b1e92e0725f2ca3390f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test Hardware Values.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="IO\Test Hardware Values.gviweb" />
+					<SourceFileReference Id="536f84b4338240858466ce8ea0212af6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DUT Model.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="IO\DUT Model.gviweb" />
+					<SourceFileReference Id="5d904be478714a7389300d02db777037" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate Target Value.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="IO\Calculate Target Value.gviweb" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9383c99446054e8ab7e4983fe1ff4c42" Name="UI">
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ca8e09b5161444c3b186bb762060eb0b" Name="Messages">
