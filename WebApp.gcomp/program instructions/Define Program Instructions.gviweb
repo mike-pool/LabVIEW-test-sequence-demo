@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DBEBF347D8290F759B3DDACBF71F4E8F860D2490548D20B5D6A9A399CA3594DDA30B12DE7C8D8336CD5DB0AD9F5B3A265DCB62A9E7CEC19B61FF9E41A06521D2" Timestamp="1DAC3B894671D87" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="679411969EAE30FBC2E5ED1CE6D8838AD6A27FB8037468624662487A54290599C13C61B47B271BAC3032F0E90F41EEAAE95D1697948A0BF8CD5599E0318DFBC4" Timestamp="1DAC69CE35EEAB9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -40,7 +40,7 @@
 		<BlockDiagram Id="b0789c6e83924cf688858fb447e39b19">
 			<ForLoop Bounds="-172 568 201 121" DiagramId="baffba27b84a4d948ad7d83bae7748da" Id="bb26f31edb414ad098bcc6ff329e89d1">
 				<LoopIteration Bounds="5 90 15 15" Id="925c7000090d41b589ec2b0fda395308" />
-				<PropertyNode Bounds="15 45 144 35" HasErrorTerminals="False" Id="86c19efa43054e81a8c569a6292a8f39" InstanceDataType="@7c64a64b118f41debd6ac6164c38cc56" xmlns="http://www.ni.com/MocCommon">
+				<PropertyNode Bounds="15 45 144 35" HasErrorTerminals="False" Id="86c19efa43054e81a8c569a6292a8f39" InstanceDataType="@22ef673c8e7044b7b554905da44b6f2b" xmlns="http://www.ni.com/MocCommon">
 					<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 						<TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype" />
 						<TypeDefinitionTarget TargetName="WebApp::support::Message Queue::Message Queue Names.gtype" />
@@ -57,7 +57,7 @@
 			<Comment Bounds="-210 705 290 15" Id="24cd76f5956749d5b8aa15522e905fb9" xmlns="http://www.ni.com/MocCommon">
 				<p.Text>Make list of instruction names for easy screening</p.Text>
 			</Comment>
-			<ArrayLiteral Bounds="-706 515 476 634" DataType="@c43a178e6e854a0586e735ef16acc3d6" Id="ed894e35eea40bbb8e4ba1b66b17ab9" Label="e87ec7ac88c346feb98cceb674306e77" xmlns="http://www.ni.com/MocCommon">
+			<ArrayLiteral Bounds="-741 515 511 634" DataType="@c43a178e6e854a0586e735ef16acc3d6" Id="ed894e35eea40bbb8e4ba1b66b17ab9" Label="e87ec7ac88c346feb98cceb674306e77" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>
 					<Array Lengths="2" IsBinary="True" Compression="GZip">
 						<BinaryElements>H4sIAAAAAAAEAOWW61LTQBTHe6FpQ7m0KqJcA3KnhBZaSoGqWMXpKBctw5daMW0XJpImmk0U/KLjS/oevoDuSXPKosAgQ2VGy/R089vds2fP/+wGj9fj8fxgH/iFT5uPmVcbiqUauqLldWqZdo3oFpW3NMXaM8zamqnUyEfDPIhJO8SkbFw2I8fhLyblbM2yTZLViW2ZihaTtuyyplaekaNt44DoWd3WtAAs9fq0FQqGbVbIulElmrwFrqlF9AqRHyuWsqNoNikQU1U09RMxp3OazXpNJI63nKFppAIt2ERgg8VJQ+5A6vd/9xaOWLMmH4+j8lOiMxcV+Tlb7E2iWDxnSP6XMQXLVPX9mFSjFcPU1PJxPpIXzUc5nVZSldRCIjOfJPHFTKl0xe6+XWTPzdAiJjWzhkolUFj0g2lhpgVa/6O+sG9hV2Xh0sAuZWqEdj/UvbKer+cl5K/stlgKhcQACIRfMP9sUZ6tBtv2TjN2VHQOAkuywH7gYoXHIGTceYJs+79cexmIQTioITAimFYIUuCDbNluRnacSyLMTLs/GnSTI7QxE66v4uRCaIfXHnOnVqWCpZgWjYZwbAfMXSeUKvtEemETmwidwFedmVERx0XgfcMmW0SI1pvkHY22YvcNiCOvq5aU1/cM4SY8Fsh7GzZDAxBg07YvrKlEq9IwexkyXfN6lRz6PZ8vflFult+yEVdcDyFHmFtQnKA9NK47pLOPbsA5X12ulvCNdLlVK94G0w1F4vNCG6QU7+C/UneZ2TxN2JxhkkteMsHuE8dm/DT3jfqgct6tCwhF7AHTC6YPTD84gmAh/+IAt0FvD+5lEEkvEglJH5IhJP1IhjFRA26cwj1moi9tXdom1JKw9sWReuoGMYhRPggJ6RhPh5CO83QY6QRHO0fcVLFjHBl1Qwl1eD3ipLNuZKzBfB5xqs7GG8zvEafrbKLB4CoJTqIEvj+WIAZmBq6/qcs7kcHMgpPpyzuJg0nA9BjKNuc6884gmUciI0kimUWSQhJHsoAkgSSNZA51WuTVm0ea4WkS6RJPU0iXebqAdIWnaaRZjkYWuUoQ7rNGK1zN9YuUiZ3hikJ48Fv3Ej/7IYjw5JBUbAv6lvmpqyf7Vvi+R9BYU3V0muWd5k52hn8CGGh70KQNAAA=</BinaryElements>
@@ -89,9 +89,9 @@
 						</Cluster>
 					</p.DefaultElementValue>
 				</ArrayBehavior>
-				<ClusterLiteral Bounds="48 2 422 629" DataType="@22ef673c8e7044b7b554905da44b6f2b" Id="7a67c8cbbd584c60a13c8bb64993037e">
+				<ClusterLiteral Bounds="48 2 457 629" DataType="@22ef673c8e7044b7b554905da44b6f2b" Id="7a67c8cbbd584c60a13c8bb64993037e">
 					<ClusterBehavior AutoArrange="ArrangeVertically" />
-					<ClusterLiteral Bounds="2 20 251 52" DataType="@66e8bdc2ff2940ebb6a2d79c9c67870d" Id="16caface37ad4dde94625f9ba445d8cf" Label="1646854c7b6e44e58c38627c84f9b0dd">
+					<ClusterLiteral Bounds="2 20 306 52" DataType="@66e8bdc2ff2940ebb6a2d79c9c67870d" Id="16caface37ad4dde94625f9ba445d8cf" Label="1646854c7b6e44e58c38627c84f9b0dd">
 						<ClusterBehavior AutoArrange="ArrangeHorizontally" />
 						<Literal Bounds="2 20 161 15" DataType="String" Id="c4461618c0c4050acb5a47028cbd06f" Label="562bc04a90454b07a28edd5088d0ab08">
 							<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
@@ -99,11 +99,11 @@
 						<NodeLabel AttachedTo="c4461618c0c4050acb5a47028cbd06f" Bounds="2 2 65 15" Id="562bc04a90454b07a28edd5088d0ab08" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Instruction</p.Text>
 						</NodeLabel>
-						<ArrayLiteral Bounds="167 20 57 20" DataType="@d6d02125d266422982f361d0f19fb834" Id="cb36a4d26ced4fe892bd3235a93a66d5" Label="8af021af941c43c79fdffee8fcc10650">
+						<ArrayLiteral Bounds="167 20 120 20" DataType="@d6d02125d266422982f361d0f19fb834" Id="cb36a4d26ced4fe892bd3235a93a66d5" Label="8af021af941c43c79fdffee8fcc10650">
 							<ArrayBehavior ElementType="@e81a359a73e1452084da900390ea6367" IndexEditorWidth="42" IndexVisibility="Collapsed">
 								<p.DefaultElementValue>0</p.DefaultElementValue>
 							</ArrayBehavior>
-							<Literal Bounds="6 2 45 15" DataType="@e81a359a73e1452084da900390ea6367" Id="7ed9b9c74adc4b598f2a818945e5fbb5" Label="c48b8c563cad4aaaba423ae7a1113be2" p8:ControlDefinitionChecksum="MwcrRaLOCwfVfN0bnCVOH4q2a3imAkZqcvR72oNil6E=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
+							<Literal Bounds="6 2 108 15" DataType="@e81a359a73e1452084da900390ea6367" Id="7ed9b9c74adc4b598f2a818945e5fbb5" Label="c48b8c563cad4aaaba423ae7a1113be2" p8:ControlDefinitionChecksum="MwcrRaLOCwfVfN0bnCVOH4q2a3imAkZqcvR72oNil6E=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
 								<p8:p.TypeDefinitionTargets>
 									<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype" />
 									<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype::ControlDefinition" />
@@ -121,7 +121,7 @@
 					<NodeLabel AttachedTo="16caface37ad4dde94625f9ba445d8cf" Bounds="2 2 45 15" Id="1646854c7b6e44e58c38627c84f9b0dd" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Init Info</p.Text>
 					</NodeLabel>
-					<ArrayLiteral Bounds="2 94 401 523" DataType="@4a927a23bf4a43da91b77f495c08c283" Id="9d6b041419594c988a7d2d43273c58d2" Label="e7605d4ed4a349289e300ef4b00ff9c2">
+					<ArrayLiteral Bounds="2 94 436 523" DataType="@4a927a23bf4a43da91b77f495c08c283" Id="9d6b041419594c988a7d2d43273c58d2" Label="e7605d4ed4a349289e300ef4b00ff9c2">
 						<ArrayBehavior ElementType="@b29cd55bf7ec42378581f939c00e58d9" IndexEditorWidth="42" VisibleRows="4">
 							<p.DefaultElementValue>
 								<Cluster>
@@ -130,9 +130,9 @@
 								</Cluster>
 							</p.DefaultElementValue>
 						</ArrayBehavior>
-						<ClusterLiteral Bounds="83 2 312 128" DataType="@b29cd55bf7ec42378581f939c00e58d9" Id="d9b737e4875a4984aee859b8976dff24" Label="c7eadf35c8a6498596ef821b931d21a2">
+						<ClusterLiteral Bounds="48 262 382 128" DataType="@b29cd55bf7ec42378581f939c00e58d9" Id="d9b737e4875a4984aee859b8976dff24" Label="c7eadf35c8a6498596ef821b931d21a2">
 							<ClusterBehavior AutoArrange="ArrangeHorizontally" />
-							<ArrayLiteral Bounds="51 20 242 96" DataType="@54a36d656f7740b0802923e1fd037c46" Id="8c970c6c5dc44bd8b373ce0c557ddb13" Label="4f274e9105734af6bfaad3d15edcbeaf">
+							<ArrayLiteral Bounds="121 20 242 96" DataType="@54a36d656f7740b0802923e1fd037c46" Id="8c970c6c5dc44bd8b373ce0c557ddb13" Label="4f274e9105734af6bfaad3d15edcbeaf">
 								<ArrayBehavior ElementType="@603e2ce2c49a4c96acf45ec6d7987de6" IndexEditorWidth="42" IndexVisibility="Collapsed" VisibleRows="3">
 									<p.DefaultElementValue>
 										<Cluster>
@@ -164,10 +164,10 @@
 									<p.Text>Cluster Constant</p.Text>
 								</NodeLabel>
 							</ArrayLiteral>
-							<NodeLabel AttachedTo="8c970c6c5dc44bd8b373ce0c557ddb13" Bounds="51 2 35 15" Id="4f274e9105734af6bfaad3d15edcbeaf" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="8c970c6c5dc44bd8b373ce0c557ddb13" Bounds="121 2 35 15" Id="4f274e9105734af6bfaad3d15edcbeaf" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Steps</p.Text>
 							</NodeLabel>
-							<Literal Bounds="2 20 45 15" DataType="@e81a359a73e1452084da900390ea6367" Id="7cc4acf93581439786f2a7b8e221b477" Label="5fd15c1eb9a94be88d9959bc22a060f7" p8:ControlDefinitionChecksum="MwcrRaLOCwfVfN0bnCVOH4q2a3imAkZqcvR72oNil6E=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
+							<Literal Bounds="2 20 115 15" DataType="@e81a359a73e1452084da900390ea6367" Id="7cc4acf93581439786f2a7b8e221b477" Label="5fd15c1eb9a94be88d9959bc22a060f7" p8:ControlDefinitionChecksum="MwcrRaLOCwfVfN0bnCVOH4q2a3imAkZqcvR72oNil6E=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
 								<p8:p.TypeDefinitionTargets>
 									<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype" />
 									<p8:TypeDefinitionTarget TargetName="WebApp::typedefs::manager::Manager State.gtype::ControlDefinition" />
@@ -178,7 +178,7 @@
 								<p.Text>State</p.Text>
 							</NodeLabel>
 						</ClusterLiteral>
-						<NodeLabel AttachedTo="d9b737e4875a4984aee859b8976dff24" Bounds="83 -16 30 15" Id="c7eadf35c8a6498596ef821b931d21a2" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="d9b737e4875a4984aee859b8976dff24" Bounds="48 244 30 15" Id="c7eadf35c8a6498596ef821b931d21a2" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Cluster Constant</p.Text>
 						</NodeLabel>
 					</ArrayLiteral>
@@ -194,7 +194,7 @@
 			<DataAccessor Bounds="50 625 40 15" DataItem="8927d109994449f0b75d34bff861c40e" Id="c40f755f8c8840f29907e116ac5acd5d" Label="59d432b3c7834c50a991159ec5101dc0" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="String[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="ed894e35eea40bbb8e4ba1b66b17ab9" Bounds="-706 498 66 14" Id="e87ec7ac88c346feb98cceb674306e77" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="ed894e35eea40bbb8e4ba1b66b17ab9" Bounds="-741 498 66 14" Id="e87ec7ac88c346feb98cceb674306e77" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Instructions</p.Text>
 			</NodeLabel>
 			<NodeLabel AttachedTo="5fff967b4e243058dc014f065616a65" Bounds="100 515 66 14" Id="75e8a19a558400f8177369897401670" xmlns="http://www.ni.com/PlatformFramework">
@@ -223,17 +223,6 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="7c64a64b118f41debd6ac6164c38cc56">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Init Info" DataType="@35147cc139754060b1dd2639b5a10268" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Sequences" DataType="@d1ac7487165b4cebac45309830800528" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="c43a178e6e854a0586e735ef16acc3d6">
-			<VariableArray DereferenceType="@22ef673c8e7044b7b554905da44b6f2b" />
-		</p.TypeReference>
 		<p.TypeReference TypeId="22ef673c8e7044b7b554905da44b6f2b">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
@@ -241,6 +230,9 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Sequences" DataType="@4a927a23bf4a43da91b77f495c08c283" />
 				</Members>
 			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c43a178e6e854a0586e735ef16acc3d6">
+			<VariableArray DereferenceType="@22ef673c8e7044b7b554905da44b6f2b" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="66e8bdc2ff2940ebb6a2d79c9c67870d">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -289,33 +281,11 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="35147cc139754060b1dd2639b5a10268">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Instruction" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Valid Starts" DataType="@96089c7be04e4f63ae4e9cffca831e47" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="d1ac7487165b4cebac45309830800528">
-			<VariableArray DereferenceType="@bba9a2dcce2d4299bc5acb187dda340e" />
-		</p.TypeReference>
 		<p.TypeReference TypeId="7523cd78e5f849e0b06e370c52147514">
 			<Typedef TypedefName="Manager State.gtype" UnderlyingType="@befe360776f64f74b5d0922a3abd631c" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="89a63e9cf6724c739d4eb66d6b360643">
 			<Typedef TypedefName="Message Queue Names.gtype" UnderlyingType="@111beafcac534b1b9fd9626fd0f359d5" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="96089c7be04e4f63ae4e9cffca831e47">
-			<VariableArray DereferenceType="@99a27d040934412b96fe87b43da5d209" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="bba9a2dcce2d4299bc5acb187dda340e">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="State" DataType="@99a27d040934412b96fe87b43da5d209" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Steps" DataType="@54a36d656f7740b0802923e1fd037c46" />
-				</Members>
-			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="befe360776f64f74b5d0922a3abd631c">
 			<Enumeration>
@@ -339,13 +309,6 @@
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
-		</p.TypeReference>
-		<p.TypeReference TypeId="99a27d040934412b96fe87b43da5d209">
-			<Attributed AttributedType="@7523cd78e5f849e0b06e370c52147514">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
-				</AttributeValues>
-			</Attributed>
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 </SourceFile>
