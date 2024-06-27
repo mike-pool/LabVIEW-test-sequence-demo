@@ -1,5 +1,7 @@
 Seen here is a simple test sequencer with simulated hardware IO. The sequencer constists of three steps. Each generates a waveform (configurable below) which outputted to a modeled device under test (DUT). The DUT is modeled by a multiplication factor with added noise and its "Actual" output value is then compared against an ideal "Target" to evaluate a pass or fail at each step. Also for simulation purposes, the chance of a fault occurring (DUT outputs 0) at each step can be adjusted with the Fault Probability slider.
 
+Click start button while test is running to view valid state check result
+
 If the actual deviates from the target by more than 10%, the step is marked as "fail" (red).
 
 The overall result of the test is indicated by the large LED.
@@ -44,13 +46,10 @@ Idle
 
 
 ---todo
+save all text log messages in same place
 change status text so instruction, sequence and steps are clearly identifiable
-	sequence not to be confused with test sequence (maybe change one to routine?)
+	sequence not to be confused with test sequence (maybe change one to routine?) -> attempted this and caused VI to become corrupt
 create/ configure simulation cases/ flags
-clean up
-	UI loop
-	IO loop
-	save all text log messages in same place
 	
 ---feature_list
 Hardware fault

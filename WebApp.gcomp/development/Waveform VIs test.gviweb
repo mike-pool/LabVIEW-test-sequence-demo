@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="093B2FAAE9A806B5CE29EC555D23800FFE5B87410901298C3E7D8485CEA9A87894AC42BB184699B9FAE28A4CE27EDD3D4EE8BB468ECD7ECD9A49FC631D465DF0" Timestamp="1DAC3B8CFDAEBA7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F5491ABCDE99094BD191C177A38AC212907935545235E97F44DB7112AE7D46AE5688FFACE6A029BFA65D18BEAFEEC257F7A9EC66EF68D24D5A5183158DCD1F7E" Timestamp="1DAC830DCF84100" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -38,7 +38,7 @@
 		<DiagramUnplacedItems Id="f4453a4abcf4bb4b8f240c03999a5e3" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="9f440db23c564a74b4f38b3c21d475b3" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="93e10c77aa574c36b253bcbb82ddd6a7">
-			<MethodCall Bounds="-100 200 40 40" Id="4b4ccca526114469a9367bf7f32cc99e" ResolveFailedHint="&quot;C:\\Users\\mikep\\Proton Drive\\mike.pool\\My files\\Projects\\LabVIEW\\Test Sequence Demo\\WebApp.gcomp\\IO\\Handle Next Waveform.gviweb&quot;" Signature="@083f436fbc0545aca8a837a5b0b3d061" Target="WebApp::IO::Handle Next Waveform.gviweb" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="-100 200 40 40" Id="4b4ccca526114469a9367bf7f32cc99e" ResolveFailedHint="&quot;C:\\Users\\mikep\\Proton Drive\\mike.pool\\My files\\Projects\\LabVIEW\\Test Sequence Demo\\WebApp.gcomp\\IO\\Handle Next Waveform.gviweb&quot;" Signature="@bcb7bb8058594908a924a04f3e45b707" Target="WebApp::IO::Prep Next Waveform.gviweb" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Test Sequence in" />
@@ -62,7 +62,7 @@
 			<WhileLoop Bounds="-30 40 1670 750" DiagramId="be9c110ea56141b6b60abe5be4ed62f4" Id="a1d61cb676ac4ccb84701b328ce0b938">
 				<LoopIteration Bounds="5 720 15 15" Id="5f4948b18bf46e49bfd24f55c1578ad" />
 				<LoopCondition Bounds="1305 720 15 15" Id="56d29dfcebc4d3b84d6b7699c624607" />
-				<PropertyNode Bounds="30 255 102 35" HasErrorTerminals="False" Id="e7cab34f754049c1b043e0116aad26be" InstanceDataType="@a58beeb5b1d748a6b277338ab34b6bdc" xmlns="http://www.ni.com/MocCommon">
+				<PropertyNode Bounds="30 255 102 35" HasErrorTerminals="False" Id="e7cab34f754049c1b043e0116aad26be" InstanceDataType="@519c8473de4f4066b123e9de47a4c78c" xmlns="http://www.ni.com/MocCommon">
 					<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 						<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
 					</p.TypeDefinitionTargets>
@@ -92,7 +92,7 @@
 							<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Double" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<PropertyNode Bounds="20 230 92 35" HasErrorTerminals="False" Id="66e15073c58a413fa04de334ceae7683" InstanceDataType="@a58beeb5b1d748a6b277338ab34b6bdc" xmlns="http://www.ni.com/MocCommon">
+						<PropertyNode Bounds="20 230 92 35" HasErrorTerminals="False" Id="66e15073c58a413fa04de334ceae7683" InstanceDataType="@519c8473de4f4066b123e9de47a4c78c" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
 							</p.TypeDefinitionTargets>
@@ -104,7 +104,7 @@
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 270 100" Id="19cb42b14c704f75bad0acf1e6ef06c0" Pattern="True">
 								<GetCurrentTime Bounds="20 30 35 30" Id="dd7d36c286444d3291e61b033618a273" />
-								<PropertyNode Bounds="100 20 100 50" HasErrorTerminals="False" Id="14e24f4c45ff434aa046b27f9227a1ba" InstanceDataType="@a58beeb5b1d748a6b277338ab34b6bdc" xmlns="http://www.ni.com/MocCommon">
+								<PropertyNode Bounds="100 20 100 50" HasErrorTerminals="False" Id="14e24f4c45ff434aa046b27f9227a1ba" InstanceDataType="@519c8473de4f4066b123e9de47a4c78c" xmlns="http://www.ni.com/MocCommon">
 									<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 										<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
 									</p.TypeDefinitionTargets>
@@ -183,7 +183,7 @@
 						<NodeLabel AttachedTo="97fe1a2073174ca3afa788abc7be7831" Bounds="925 60 29 14" Id="38d6e0038a540b0a24125a6445162d2" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Done</p.Text>
 						</NodeLabel>
-						<MethodCall Bounds="495 220 40 40" Id="c667a0c476984355a6c002f5402809cd" ResolveFailedHint="&quot;C:\\Users\\mikep\\Proton Drive\\mike.pool\\My files\\Projects\\LabVIEW\\Test Sequence Demo\\WebApp.gcomp\\debug\\Check Test Sequence Complete.gviweb&quot;" Signature="@35d83530619349e1b8bb616739dca421" Target="WebApp::development::Check Test Sequence Complete.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="495 220 40 40" Id="c667a0c476984355a6c002f5402809cd" ResolveFailedHint="&quot;C:\\Users\\mikep\\Proton Drive\\mike.pool\\My files\\Projects\\LabVIEW\\Test Sequence Demo\\WebApp.gcomp\\development\\Check Test Sequence Complete.gviweb&quot;" Signature="@35d83530619349e1b8bb616739dca421" Target="WebApp::development::Check Test Sequence Complete.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="B0" Desc="This Queue Name" />
@@ -483,8 +483,8 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="083f436fbc0545aca8a837a5b0b3d061">
-			<Attributed AttributedType="@8e54628eb46b45b78eaed4d6369cb5cf">
+		<p.TypeReference TypeId="bcb7bb8058594908a924a04f3e45b707">
+			<Attributed AttributedType="@f34877901e8b4eed8cbc7f11a5376736">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
@@ -503,13 +503,6 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="8fa31c80784848d3bdedfa1de990c2d4">
 			<VariableArray DereferenceType="@0caeafd419e04050818b99aee0042046" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="a58beeb5b1d748a6b277338ab34b6bdc">
-			<Attributed AttributedType="@1a92ba0dcc1e4ac5a338d2b6ee82c855">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs" />
-				</AttributeValues>
-			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="e474f2afa48242dd9760bc44ef284a3d">
 			<Attributed AttributedType="@11506cb34fba48b191b78138edd2fac1">
@@ -585,8 +578,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="8e54628eb46b45b78eaed4d6369cb5cf">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Handle Next Waveform.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="f34877901e8b4eed8cbc7f11a5376736">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Prep Next Waveform.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@ff510c9b59ba410bb78a24f4a5905ba4">
 						<AttributeValues>
@@ -620,9 +613,6 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="e92a2eab6a6e40f599cb437d568e17be">
 			<Typedef TypedefName="IO Data.gtype" UnderlyingType="@1fb0e8f95e1044da883c5589c8a01099" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="1a92ba0dcc1e4ac5a338d2b6ee82c855">
-			<Typedef TypedefName="IO Data.gtype" UnderlyingType="@3181979b9aec409888b20ff039025b21" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="11506cb34fba48b191b78138edd2fac1">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Generate Waveform.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
@@ -842,20 +832,6 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3181979b9aec409888b20ff039025b21">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Waveform" DataType="@6cacb09f14694191a5062a9e46712dce" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Duration (s)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Time Factor" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Adjusted Amplitude" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="New Wave" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Wave Active" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Fault start time" DataType="Double" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
 		<p.TypeReference TypeId="7e222c985f55438d9dca47ec30c70827">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@519c8473de4f4066b123e9de47a4c78c" />
 		</p.TypeReference>
@@ -952,13 +928,6 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6cacb09f14694191a5062a9e46712dce">
-			<Attributed AttributedType="@d62b9f986009488c9345c2e621120539">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::typedefs::IO" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
 		<p.TypeReference TypeId="6fe60e4a644342d3b2183324b956a67b">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
@@ -1010,7 +979,7 @@
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="WebApp::IO::Handle Next Waveform.gviweb">
+		<p.IconModel Target="WebApp::IO::Prep Next Waveform.gviweb">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
@@ -1018,7 +987,7 @@
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Handle Next Waveform" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Prep Next Waveform" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
 									<FontSetting FontFamily="Segoe UI" FontSize="6" />
 								</FileNameText>
 							</IconTemplate>

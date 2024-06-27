@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="BA799893119610EFE193F38AB52E469CCCE389BEF4075DDA7F29C0BA6999B34A9E07FE905D2AB956A581583C881DF91A95DCDC70C5E631588FE2500C3D35C544" Timestamp="1DAC5D7C3451D1A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="753A8A70C98E23EFBB6423C52DE672CFD1E165824311FB84A9A707FC4DF0EC15D18C5D0FB103C98AAAB7502BE059DCD64CF9088B831070F1F2AB2F1C784EFB65" Timestamp="1DAC83179B1BB3F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -85,7 +85,7 @@
 					<Wire Id="3f7b1bd5292742b282c9241199858cd2" Joints="N(def4c17b2b2c440099a6b93a1fa6b84c:f9f7b299ec944b25b241fb3bdbf768ce)|(4,410) h(5) v(-75) N(b8959844e5e411aad16c054d87f48c9:f9f7b299ec944b25b241fb3bdbf768ce)|(846,335)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 850 575" Id="1d9c911925e24d308d62088e3414e0a7" Pattern="True">
-					<DisableStructure Bounds="20 240 220 200" Id="b9469db549ae485f896c761bfb331827" Selected="ed64e24b90704e749512135450003ed6" UserSelectorBounds="56 0 107 17">
+					<DisableStructure Bounds="20 240 220 200" Id="b9469db549ae485f896c761bfb331827" Selected="d3a4579ee03f4c1b8f9b1f832959dfdb" UserSelectorBounds="56 0 107 17">
 						<DisableStructure.DisableDiagram Bounds="5 5 210 190" Id="ed64e24b90704e749512135450003ed6" Pattern="Enabled">
 							<Wire Id="3ec8d70b2fbf4924bd0b224f10cbf8fa" Joints="N(5e681106352b4520a5ae4315573a974b:ed64e24b90704e749512135450003ed6)|(4,165) N(1af22e80cad44d5a93c98dc1dbf64496:ed64e24b90704e749512135450003ed6)|(206,165)" xmlns="http://www.ni.com/PlatformFramework" />
 						</DisableStructure.DisableDiagram>
@@ -190,7 +190,7 @@
 		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="1" DataType="Double" Id="b761a1927454eeb9051a5ad6b47376b" Name="Hardware input" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="0" DataType="@519c8473de4f4066b123e9de47a4c78c" Id="74e83740d85b4eed9cc40c825eacc2ae" Name="IO data in" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@519c8473de4f4066b123e9de47a4c78c" Id="74e83740d85b4eed9cc40c825eacc2ae" Name="IO data in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0_0x0_60052752000;0;Utc_0x0_0x0_False_False_0x0_</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
@@ -202,10 +202,10 @@
 				<TypeDefinitionTarget TargetName="WebApp::typedefs::IO Data.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="2" DataType="Double" Id="401343663c2f4c329ac435324774a4c7" Name="Time Elapsed" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="2" CallUsage="Required" DataType="Double" Id="401343663c2f4c329ac435324774a4c7" Name="Time Elapsed" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="Double" Id="8ddc18d1538d49789d01a0e4858505fa" Name="Hardware output" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="Double" Id="8ddc18d1538d49789d01a0e4858505fa" Name="Hardware output" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
