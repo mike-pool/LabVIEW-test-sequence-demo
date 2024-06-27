@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="BF4464705889B50BFA7411700DD6480335E5EC0490D0EAB49E18A9B44B8D3C8C48C7A19522D223F9FBE5C26723DCB335945AE376D2289A309FBE6735FD5CF91B" Timestamp="1DAC5DD757A19EB" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="071ECC1EFEFE0B9C3DF5E8F03F87D039B75F78B9429473A47803EAD4A55BFB8CF558281E2047F518BEB0178E4168856CD664CC98E5688842BD575990FF0A4130" Timestamp="1DAC82E2F971A24" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -51,6 +51,7 @@
 					<SourceFileReference Id="d133c0cfe69e4a7bac7e4d9d3bbcbcc7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle Error.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\Handle Error.gviweb" />
 					<SourceFileReference Id="dadd226ce5324ee88f4065fcba2d9c9f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="globals.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\globals.gviweb" />
 					<SourceFileReference Id="8b9f00c67ad54c3f8780415401d50f27" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate Undefined Message Error.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\Generate Undefined Message Error.gviweb" />
+					<SourceFileReference Id="e430f57f7b984e3194268db35cb438e4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="User Output Text.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\User Output Text.gviweb" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="320dd99a77e24742b65ffe7817cb8eed" Name="typedefs">
 					<SourceFileReference Bindings="EnvoyManager" Id="81a6d7076dc6433da23bf0f7287f4308" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Test Step Data.gtype" StoragePath="typedefs\Test Step Data.gtype\Test Step Data.gtype" />
@@ -72,6 +73,8 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="8bb2896e66ce40a5813e2b01bb67b77b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Waveforms.gtype" StoragePath="typedefs\waveform\Waveforms.gtype\Waveforms.gtype" />
 						<SourceFileReference Bindings="EnvoyManager" Id="f0a568070bd24aeb8ef4d8507e388913" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Waveform Data.gtype" StoragePath="typedefs\waveform\Waveform Data.gtype\Waveform Data.gtype" />
 					</NameScopingEnvoy>
+					<SourceFileReference Bindings="EnvoyManager" Id="edc9f82f6b3444ec989c59da74f2c96b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="User Output Text.gtype" StoragePath="typedefs\User Output Text.gtype\User Output Text.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="842a22bcbdca456ea846e9c5c47f03b5" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="UI Data.gtype" StoragePath="typedefs\UI Data.gtype\UI Data.gtype" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="114008636f5d475d984306a438277c25" Name="development">
 					<SourceFileReference Id="6744201f873245cba2a161c89186b1d7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Append String Control.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="development\Append String Control.gviweb" />

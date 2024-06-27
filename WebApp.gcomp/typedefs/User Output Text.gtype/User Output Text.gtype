@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E90BD009B4CB7883C1260C24382A9D15077F763360568EE02F4EC20D9DE337B618C418A7154BA2D1084AC90434B69A57E312FE4DAD1177B94E9DB8EEA18BEB73" Timestamp="1DAC820D0A82EAF" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="Void" Id="a811862eb1734718910e616d75722ce3" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="15d90c210b6843709436707ad46e5458" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="fd27aa68355542478039b07ce77806b1" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="e4786830dcff40fcbc77d28e94d773ec" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="74efe43a351d48e68d7921382a529eb6" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="a46c76cb0877466d8e306f6685ae57dc" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e34854fdbedb46ad9d5c325bf263c90b" Name="User Output Text.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="f62cca288864b9394437da1ddeb4891" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition Id="512326d727de49d4883aee207c38da6c" xmlns="http://www.ni.com/MocCommon" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

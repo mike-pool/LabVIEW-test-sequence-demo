@@ -759,4 +759,20 @@
 			<string>String Encoding.gtypecache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>User Output Text_edc9f82f6b3444ec989c59da74f2c96b_cb743a1e138e48b38703e226bc3a88e3.gtypecache</string>
+		</key>
+		<value>
+			<string>User Output Text.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>UI Data_842a22bcbdca456ea846e9c5c47f03b5_cb743a1e138e48b38703e226bc3a88e3.gtypecache</string>
+		</key>
+		<value>
+			<string>UI Data_1.gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>
